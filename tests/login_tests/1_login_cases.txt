@@ -1,0 +1,57 @@
+Przypadek 1:
+	Tytuł: Logowanie za pomocą poprawnych danych.
+	Cel: Weryfikacja logowania przy użyciu aktywnego konta użytkownika.
+	Wykonanie: Manualne/Automatyczne.
+    Priorytet: Wysoki.
+
+	Założenia:
+		- Dane użytkownika znajdują się w bazie danych aplikacji.
+		- Użytkownik znajduje się na ekranie logowania.
+
+	Kroki:
+		1. Użytkownik wprowadza poprawne dane w pola "Login" oraz "Hasło".
+		2. Użytkownik naciska przycisk "Zaloguj".
+
+	Oczekiwany rezultat:
+		- Użytkownik zostaje zalogowany.
+		- Wyświetlona zostaje informacja o prawidłowym przebiegu procesu logowania. ("Success!").
+
+----------------------------------------------------------------------------------------------------
+
+Przypadek 2:
+	Tytuł: Próba logowania za pomocą niepoprawnych danych.
+	Cel: Weryfikacja działania aplikacji w przypadku wprowadzenia niepoprawnych danych logowania.
+	Wykonanie: Automatyczne.
+    Priorytet: Wysoki.
+
+	Założenia:
+		- Dane użytkownika nie znajdują się w bazie danych aplikacji.
+		- Użytykownik znajduje się na ekranie logowania.
+
+	Kroki:
+		1. Użytkownik wprowadza niepoprawne dane w pola "Login" lub "Hasło".
+		2. Użytkownik naciska przycisk "Zaloguj".
+
+	Oczekiwany rezultat:
+		- Użytkownik nie zostaje zalogowany.
+		- Zostaje zaznaczona informacja o możliwości zresetowania hasła ("Forgot password?").
+
+----------------------------------------------------------------------------------------------------
+
+Przypadek 3:
+	Tytuł: Próba zalogowania się na nieaktywne konto.
+	Cel: Weryfikacja działania aplikacji w przypadku próby zalogowania się na nieaktywne konto.
+	Wykonanie: Manualne/Automatyczne.
+    Priorytet: Wysoki.
+
+	Założenia:
+		- Dane użytkownika znajdują się w bazie danych aplikacji.
+		- Użytykownik znajduje się na ekranie logowania.
+
+	Kroki:
+		1. Użytkownik wprowadza poprawne dane w pola "Login" i "Hasło".
+		2. Użytkownik naciska przycisk "Zaloguj".
+
+	Oczekiwany rezultat:
+		- Użytkownik nie zostaje zalogowany.
+		- Wyświetlona zostaje informacja o braku aktywacji konta.
