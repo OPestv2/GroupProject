@@ -62,7 +62,7 @@ Przypadek 3:
 
 Przypadek 4a:
 	Tytuł: Próba wielokrotnego zalogowania się za pomocą niepoprawnych danych.
-	Cel: Sprawdzenie działania mechanizmu CAPTCHA.
+	Cel: Weryfikacja działania mechanizmu CAPTCHA dla nieprawidłowych danych.
 	Wykonanie: Automatyczne.
 	Priorytet: Średni.
 	
@@ -84,8 +84,8 @@ Przypadek 4a:
 ----------------------------------------------------------------------------------------------------
 
 Przypadek 4b:
-	Tytuł:
-	Cel: weryfikacja działania mechanizmu CAPTCHA dla nieaktywnego konta.
+	Tytuł: Próba wielokrotnego zalogowania się na nieaktywne konto.
+	Cel: Weryfikacja działania mechanizmu CAPTCHA dla nieaktywnego konta.
 	Wykonanie: Manualne/Automatyczne.
 	Priorytet: Średni.
 
