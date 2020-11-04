@@ -2,7 +2,7 @@ Przypadek 1:
 	Tytuł: Logowanie za pomocą poprawnych danych.
 	Cel: Weryfikacja logowania przy użyciu aktywnego konta użytkownika.
 	Wykonanie: Manualne/Automatyczne.
-    	Priorytet: Wysoki.
+	Priorytet: Wysoki.
 
 	Założenia:
 		- Dane użytkownika znajdują się w bazie danych aplikacji.
