@@ -10,7 +10,7 @@ Przypadek 1:
 
 	Kroki:
 		1. Użytkownik wprowadza poprawne dane w pola "Login" oraz "Hasło".
-		2. Użytkownik naciska przycisk "Zaloguj".
+		2. Użytkownik naciska przycisk "Zaloguj się".
 
 	Oczekiwany rezultat:
 		- Użytkownik zostaje zalogowany.
@@ -30,7 +30,7 @@ Przypadek 2:
 
 	Kroki:
 		1. Użytkownik wprowadza niepoprawne dane w pola "Login" lub "Hasło".
-		2. Użytkownik naciska przycisk "Zaloguj".
+		2. Użytkownik naciska przycisk "Zaloguj się".
 
 	Oczekiwany rezultat:
 		- Użytkownik nie zostaje zalogowany.
@@ -52,7 +52,7 @@ Przypadek 3:
 
 	Kroki:
 		1. Użytkownik wprowadza poprawne dane w pola "Login" i "Hasło".
-		2. Użytkownik naciska przycisk "Zaloguj".
+		2. Użytkownik naciska przycisk "Zaloguj się".
 
 	Oczekiwany rezultat:
 		- Użytkownik nie zostaje zalogowany.
@@ -72,7 +72,7 @@ Przypadek 4a:
 
 	Kroki:
 		1. Użytkownik wprowadza niepoprawne dane w pola "Login" lub "Hasło".
-		2. Użytkownik naciska przycisk "Zaloguj".
+		2. Użytkownik naciska przycisk "Zaloguj się".
 		3. Poprzednie kroki zostają powtórzone pięciokrotnie.
 
 	Oczekiwany rezultat:
@@ -96,7 +96,7 @@ Przypadek 4b:
 		
 	Kroki:
 		1. Użytkownik wprowadza poprawne dane w pola "Login" i "Hasło".
-		2. Użytkownik naciska przycisk "Zaloguj".
+		2. Użytkownik naciska przycisk "Zaloguj się".
 		3. Poprzednie kroki zostają powtórzone pięciokrotnie.
 
 	Oczekiwany rezultat:
