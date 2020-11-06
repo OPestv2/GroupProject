@@ -10,7 +10,7 @@ Przypadek 1:
 
 	Kroki:
 		1. Użytkownik wprowadza poprawne dane w pola "Login", "Hasło" oraz "E-mail".
-		2. Użytkownik naciska przycisk "Zarejestruj".
+		2. Użytkownik naciska przycisk "Zarejestruj się".
 
 	Oczekiwany rezultat:
 		- Użytkownik zostaje zarejestrowany, ale jego konto pozostaje nieaktywne.
@@ -31,7 +31,7 @@ Przypadek 2:
 
 	Kroki:
 		1. Użytkownik wprowadza niepoprawne dane w pola "Login", "Hasło" lub "E-mail".
-		2. Użytkownik naciska przycisk "Zarejestruj".
+		2. Użytkownik naciska przycisk "Zarejestruj się".
 
 	Oczekiwany rezultat:
 		- Użytkownik nie zostaje zarejestrowany.
@@ -51,7 +51,7 @@ Przypadek 3:
 
 	Kroki:
 		1. Użytkownik wprowadza poprawne dane w pola "Login", "Hasło" oraz "E-mail".
-		2. Użytkownik naciska przycisk "Zarejestruj".
+		2. Użytkownik naciska przycisk "Zarejestruj się".
 
 	Oczekiwany rezultat:
 		- Użytkownik nie zostaje zarejestrowany.
