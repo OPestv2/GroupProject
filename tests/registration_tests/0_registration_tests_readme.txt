@@ -10,3 +10,5 @@ Założenia:
         - Przynajmniej jeden znak specjalny.
     - Nie może istnieć dwóch lub więcej użytkowników o takiej samej nazwie.
     - Najpierw następuje sprawdzenie czy wprowadzone przez użytkownika dane są poprawne, a następnie zachodzi weryfikacja czy nie istnieje użytkownik o podanej nazwie.
+    
+    // Pozostałe pola, takie jak: kraj, waluta, czy numer telefonu, nie są istotne na obecnym etapie. Można przyjąć, że niektóre z nich (na przykład imię, nazwisko, ...) nie mogą pozostać puste.

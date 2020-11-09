@@ -2,7 +2,7 @@ Przypadek 1:
 	Tytuł: Logowanie za pomocą poprawnych danych.
 	Cel: Weryfikacja logowania przy użyciu aktywnego konta użytkownika.
 	Wykonanie: Manualne/Automatyczne.
-    Priorytet: Wysoki.
+	Priorytet: Wysoki.
 
 	Założenia:
 		- Dane użytkownika znajdują się w bazie danych aplikacji.
@@ -10,11 +10,11 @@ Przypadek 1:
 
 	Kroki:
 		1. Użytkownik wprowadza poprawne dane w pola "Login" oraz "Hasło".
-		2. Użytkownik naciska przycisk "Zaloguj".
+		2. Użytkownik naciska przycisk "Zaloguj się".
 
 	Oczekiwany rezultat:
 		- Użytkownik zostaje zalogowany.
-		- Wyświetlona zostaje informacja o prawidłowym przebiegu procesu logowania. ("Success!").
+		- Wyświetlona zostaje informacja o prawidłowym przebiegu procesu logowania ("Success!").
 
 ----------------------------------------------------------------------------------------------------
 
@@ -22,7 +22,7 @@ Przypadek 2:
 	Tytuł: Próba logowania za pomocą niepoprawnych danych.
 	Cel: Weryfikacja działania aplikacji w przypadku wprowadzenia niepoprawnych danych logowania.
 	Wykonanie: Automatyczne.
-    Priorytet: Wysoki.
+   	Priorytet: Wysoki.
 
 	Założenia:
 		- Dane użytkownika nie znajdują się w bazie danych aplikacji.
@@ -30,10 +30,11 @@ Przypadek 2:
 
 	Kroki:
 		1. Użytkownik wprowadza niepoprawne dane w pola "Login" lub "Hasło".
-		2. Użytkownik naciska przycisk "Zaloguj".
+		2. Użytkownik naciska przycisk "Zaloguj się".
 
 	Oczekiwany rezultat:
 		- Użytkownik nie zostaje zalogowany.
+		- Zostaje wyświetlona informacja o nieprawidłowym przebiegu procesu logowania.
 		- Zostaje zaznaczona informacja o możliwości zresetowania hasła ("Forgot password?").
 
 ----------------------------------------------------------------------------------------------------
@@ -42,16 +43,63 @@ Przypadek 3:
 	Tytuł: Próba zalogowania się na nieaktywne konto.
 	Cel: Weryfikacja działania aplikacji w przypadku próby zalogowania się na nieaktywne konto.
 	Wykonanie: Manualne/Automatyczne.
-    Priorytet: Wysoki.
+    	Priorytet: Wysoki.
 
 	Założenia:
 		- Dane użytkownika znajdują się w bazie danych aplikacji.
 		- Użytykownik znajduje się na ekranie logowania.
+		- Użytkownik zarejestrował się, ale jeszcze nie aktywował swojego konta.
 
 	Kroki:
 		1. Użytkownik wprowadza poprawne dane w pola "Login" i "Hasło".
-		2. Użytkownik naciska przycisk "Zaloguj".
+		2. Użytkownik naciska przycisk "Zaloguj się".
 
 	Oczekiwany rezultat:
 		- Użytkownik nie zostaje zalogowany.
 		- Wyświetlona zostaje informacja o braku aktywacji konta.
+
+----------------------------------------------------------------------------------------------------
+
+Przypadek 4a:
+	Tytuł: Próba wielokrotnego zalogowania się za pomocą niepoprawnych danych.
+	Cel: Weryfikacja działania mechanizmu CAPTCHA dla nieprawidłowych danych.
+	Wykonanie: Automatyczne.
+	Priorytet: Średni.
+	
+	Założenia:
+		- Dane użytkownika nie znajdują się w bazie danych aplikacji.
+		- Użytykownik znajduje się na ekranie logowania.
+
+	Kroki:
+		1. Użytkownik wprowadza niepoprawne dane w pola "Login" lub "Hasło".
+		2. Użytkownik naciska przycisk "Zaloguj się".
+		3. Poprzednie kroki zostają powtórzone pięciokrotnie.
+
+	Oczekiwany rezultat:
+		- Użytkownik nie zostaje zalogowany.
+		- Zostaje wyświetlona informacja o nieprawidłowym przebiegu procesu logowania.
+		- Zostaje zaznaczona informacja o możliwości zresetowania hasła ("Forgot password?").
+		- Zostaje uruchomiony mechanizm CAPTCHA.
+
+----------------------------------------------------------------------------------------------------
+
+Przypadek 4b:
+	Tytuł: Próba wielokrotnego zalogowania się na nieaktywne konto.
+	Cel: Weryfikacja działania mechanizmu CAPTCHA dla nieaktywnego konta.
+	Wykonanie: Manualne/Automatyczne.
+	Priorytet: Średni.
+
+	Założenia:
+		- Dane użytkownika znajdują się w bazie danych aplikacji.
+		- Użytykownik znajduje się na ekranie logowania.
+		- Użytkownik zarejestrował się, ale jeszcze nie aktywował swojego konta.
+		
+	Kroki:
+		1. Użytkownik wprowadza poprawne dane w pola "Login" i "Hasło".
+		2. Użytkownik naciska przycisk "Zaloguj się".
+		3. Poprzednie kroki zostają powtórzone pięciokrotnie.
+
+	Oczekiwany rezultat:
+		- Użytkownik nie zostaje zalogowany.
+		- Wyświetlona zostaje informacja o braku aktywacji konta.
+		- Zostaje uruchomiony mechanizm CAPTCHA.

@@ -1,0 +1,116 @@
+Przypadek 1:
+	Tytuł: Próba zmiany ustawień konta.
+	Cel: Weryfikacja działania procedury zmiany ustawień konta.
+	Wykonanie: Manualne.
+	Priorytet: Średni.
+
+	Założenia:
+		- Użytkownik jest zalogowany.
+		- Użytkownik znajduje się na ekranie zmiany ustawień konta.
+
+	Kroki:
+		1. Użytkownik naciska przycisk "Zmień ustawienia konta".
+        2. Użytkownik dokonuje zmiany wybranych przez siebie wartości.
+        3. Użytkownik naciska przycisk "Dokonaj zmian".
+
+	Oczekiwany rezultat:
+		- Na adres e-mail powiązany z kontem o podanej nazwie użytkownika zostaje wysłany kod umożliwiający zmianę ustawień.
+
+----------------------------------------------------------------------------------------------------
+
+Przypadek 1a:
+    Tytuł: Próba zapisania zmian w ustawieniach konta za pomocą poprawnego kodu.
+    Cel: Weryfikacja działania procedury zapisania zmian w ustawieniach konta za pomocą poprawnego kodu.
+    Wykonanie: Manualne.
+    Priorytet: Średni.
+
+    Założenia:
+        - Użytkownik jest zalogowany.
+        - Użytkownik znajduje się na ekranie zmiany ustawień konta.
+        - Użytkownik otrzymał wiadomość e-mail (na adres powiązany z kontem) zawierającą kod wymagany do zapisania zmian w ustawieniach.
+
+    Kroki:
+        1. Użytkownik wprowadza poprawny kod w pole wymagane do zapisania zmian w ustawieniach konta.
+
+    Oczekiwany rezultat:
+        - Zmiany na koncie użytkownika zostają zapisane.
+        - Zostaje wyświetlony komunikat o prawidłowym przebiegu procedury zmiany ustawień konta.
+
+----------------------------------------------------------------------------------------------------
+
+Przypadek 1b:
+    Tytuł: Próba zapisania zmian w ustawieniach konta za pomocą niepoprawnego kodu.
+    Cel: Weryfikacja działania procedury zapisania zmian w ustawieniach konta za pomocą niepoprawnego kodu.
+    Wykonanie: Manualne.
+    Priorytet: Średni.
+
+    Założenia:
+        - Użytkownik jest zalogowany.
+        - Użytkownik znajduje się na ekranie zmiany ustawień konta.
+        - Użytkownik otrzymał wiadomość e-mail (na adres powiązany z kontem) zawierającą kod wymagany do zapisania zmian w ustawieniach.
+
+    Kroki:
+        1. Użytkownik wprowadza poprawny kod w pole wymagane do zapisania zmian w ustawieniach konta.
+
+    Oczekiwany rezultat:
+        - Zmiany na koncie użytkownika nie zostają zapisane.
+        - Zostaje wyświetlony komunikat o nieprawidłowym przebiegu procedury zmiany ustawień konta.
+
+----------------------------------------------------------------------------------------------------
+
+Przypadek 1c:
+    Tytuł: Próba anulowania zmian w ustawieniach konta za pomocą przycisku.
+    Cel: Weryfikacja możliwości anulowania zmian w ustawieniach konta za pomocą przycisku.
+    Wykonanie: Manualne.
+    Priorytet: Średni.
+
+    Założenia:
+        - Użytkownik jest zalogowany.
+        - Użytkownik znajduje się na ekranie zmiany ustawień konta.
+        - Użytkownik otrzymał wiadomość e-mail (na adres powiązany z kontem) zawierającą kod wymagany do zapisania zmian w ustawieniach.
+
+    Kroki:
+        1. Użytkownik naciska przycisk "Anuluj zmiany".
+
+    Oczekiwany rezultat:
+        - Zmiany na koncie użytkownika nie zostają zapisane.
+        - Zostaje wyświetlony komunikat o anulowaniu procedury zmiany ustawień konta.
+
+----------------------------------------------------------------------------------------------------
+
+Przypadek 1d:
+    Tytuł: Anulowanie zmian w ustawieniach konta po upływie (wskazanego) czasu.
+    Cel: Weryfikacja możliwości anulowania zmian w ustawieniach konta po upływie (wskazanego) czasu.
+    Wykonanie: Manualne.
+    Priorytet: Niski.
+
+    Założenia:
+        - Użytkownik jest zalogowany.
+        - Użytkownik znajduje się na ekranie zmiany ustawień konta.
+        - Użytkownik otrzymał wiadomość e-mail (na adres powiązany z kontem) zawierającą kod wymagany do zapisania zmian w ustawieniach.
+
+    Kroki:
+        1. Użytkownik nie podaje kodu autoryzującego w przeciągu 180 sekund.
+
+    Oczekiwany rezultat:
+        - Zmiany na koncie użytkownika nie zostają zapisane.
+        - Zostaje wyświetlony komunikat o anulowaniu procedury zmiany ustawień konta ze względu na przekroczenie limitu czasowego.
+
+----------------------------------------------------------------------------------------------------
+
+Przypadek 1e:
+    Tytuł: Anulowanie zmian w ustawieniach konta po wylogowaniu się użytkownika.
+    Cel: Weryfikacja możliwości anulowania zmian w ustawieniach konta po wylogowaniu się użytkownika.
+    Wykonanie: Manualne.
+    Priorytet: Średni.
+
+    Założenia:
+        - Użytkownik jest zalogowany.
+        - Użytkownik znajduje się na ekranie zmiany ustawień konta.
+        - Użytkownik otrzymał wiadomość e-mail (na adres powiązany z kontem) zawierającą kod wymagany do zapisania zmian w ustawieniach.
+
+    Kroki:
+        1. Użytkownik naciska przycisk "Wyloguj się".
+
+    Oczekiwany rezultat:
+        - Zmiany na koncie użytkownika nie zostają zapisane.
