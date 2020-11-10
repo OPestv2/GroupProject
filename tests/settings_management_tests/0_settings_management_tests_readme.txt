@@ -8,5 +8,3 @@ Założenia:
         - Przynajmniej jedną wielką literę alfabetu łacińskiego.
         - Przynajmniej jedną cyfrę.
         - Przynajmniej jeden znak specjalny.
-    - Nie może istnieć dwóch lub więcej użytkowników o takiej samej nazwie.
-    - Najpierw następuje sprawdzenie czy wprowadzone przez użytkownika dane są poprawne, a następnie zachodzi weryfikacja czy nie istnieje użytkownik o podanej nazwie.
