@@ -9,7 +9,7 @@ Przypadek 1:
 		- Użytkownik znajduje się na ekranie logowania.
 
 	Kroki:
-		1. Użytkownik wprowadza poprawne dane w pola "Login" oraz "Hasło".
+		1. Użytkownik wprowadza poprawne dane w pola "Login lub adres e-mail" oraz "Hasło".
 		2. Użytkownik naciska przycisk "Zaloguj się".
 
 	Oczekiwany rezultat:
@@ -29,7 +29,7 @@ Przypadek 2:
 		- Użytykownik znajduje się na ekranie logowania.
 
 	Kroki:
-		1. Użytkownik wprowadza niepoprawne dane w pola "Login" lub "Hasło".
+		1. Użytkownik wprowadza niepoprawne dane w pola "Login lub adres e-mail" lub "Hasło".
 		2. Użytkownik naciska przycisk "Zaloguj się".
 
 	Oczekiwany rezultat:
@@ -51,7 +51,7 @@ Przypadek 3:
 		- Użytkownik zarejestrował się, ale jeszcze nie aktywował swojego konta.
 
 	Kroki:
-		1. Użytkownik wprowadza poprawne dane w pola "Login" i "Hasło".
+		1. Użytkownik wprowadza poprawne dane w pola "Login lub adres e-mail" i "Hasło".
 		2. Użytkownik naciska przycisk "Zaloguj się".
 
 	Oczekiwany rezultat:
@@ -71,7 +71,7 @@ Przypadek 4a:
 		- Użytykownik znajduje się na ekranie logowania.
 
 	Kroki:
-		1. Użytkownik wprowadza niepoprawne dane w pola "Login" lub "Hasło".
+		1. Użytkownik wprowadza niepoprawne dane w pola "Login lub adres e-mail" lub "Hasło".
 		2. Użytkownik naciska przycisk "Zaloguj się".
 		3. Poprzednie kroki zostają powtórzone pięciokrotnie.
 
@@ -95,7 +95,7 @@ Przypadek 4b:
 		- Użytkownik zarejestrował się, ale jeszcze nie aktywował swojego konta.
 		
 	Kroki:
-		1. Użytkownik wprowadza poprawne dane w pola "Login" i "Hasło".
+		1. Użytkownik wprowadza poprawne dane w pola "Login lub adres e-mail" i "Hasło".
 		2. Użytkownik naciska przycisk "Zaloguj się".
 		3. Poprzednie kroki zostają powtórzone pięciokrotnie.
 
