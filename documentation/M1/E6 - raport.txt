@@ -1,0 +1,75 @@
+1. Zmiana nazewnictwa obiektów zawartych w kategorii "tests":
+	- login_tests -> login
+		- 0_login_tests_readme.txt -> 0_readme.txt
+		- 1_login_cases.txt -> 1_cases.txt
+		- 2_login_case_1_logins_and_emails.txt -> 2_case_1_logins_and_emails.txt
+		- 3_login_case_1_passwords.txt -> 3_case_1_passwords.txt
+		- 4_login_case_2_logins_and_emails.txt -> 4_case_2_logins_and_emails.txt
+		- 5_login_case_2_passwords.txt -> 5_case_2_passwords.txt
+		- 6_login_case_3_logins_and_emails.txt -> 6_case_2_passwords.txt
+		- 7_login_case_3_passwords.txt -> 7_case_3_passwords.txt
+		- 8_login_case_4a_logins_and_emails.txt -> 8_case_4a_logins_and_emails.txt
+		- 9_login_case_4a_passwords.txt -> 9_case_4a_passwords.txt
+		- 10_login_case_4b_logins.txt -> 10_case_4b_logins.txt
+		- 11_login_case_4b_passwords.txt -> 11_case_4b_passwords.txt
+
+	- registration_tests -> registration
+		- 0_registration_tests_readme.txt -> 0_readme.txt
+		- 1_registration_cases.txt -> 1_cases.txt
+		- 2_registartion_case_1_logins.txt -> 2_case_1_logins.txt
+		- 3_registration_case_1_passwords.txt -> 3_case_1_passwords.txt
+		- 4_case_1_emails.txt -> 4_case_1_emails.txt
+		- 5_registration_case_2_correct_logins.txt -> 5_case_2_correct_logins.txt
+		- 6_registration_case_2_correct_passwords.txt -> 6_case_2_correct_passwords.txt
+		- 7_registration_case_2_correct_emails.txt -> 7_case_2_correct_emails.txt
+		- 8_registration_case_2_incorrect_logins.txt -> 8_case_2_incorrect_logins.txt
+		- 9_registration_case_2_incorrect_passwords.txt -> 9_case_2_incorrect_passwords.txt
+		- 10_registration_case_2_incorrect_emails.txt -> 10_case_2_incorrect_emails.txt
+		- 11_registration_case_3_logins.txt -> 11_case_3_logins.txt
+		- 12_registration_case_3_passwords.txt ->12_case_3_passwords.txt
+		- 13_registration_case_3_emails.txt -> 13_registration_case_3_emails.txt
+
+	- password_recovery_tests -> password_recovery
+		- 0_password_recovery_tests_readme.txt -> 0_readme.txt
+		- 1_password_recovery_cases.txt -> 1_cases.txt
+		- 2_password_recovery_case_1_usernames_and_emails.txt -> 2_case_1_usernames_and_emails.txt
+		- 3_password_recovery_case_2_usernames_and_emails.txt -> 3_case_2_usernames_and_emails.txt
+		- 4_password_recovery_case_3_usernames_and_emails.txt -> 4_case_3_usernames_and_emails.txt
+
+	- settings_management_tests -> settings_management
+		- 0_settings_management_tests_readme.txt -> 0_readme.txt
+		- 1_settings_managemenet_cases.txt -> 1_cases.txt
+
+----------------------------------------------------------------------------------------------------
+
+2. Zmiana priorytetów:
+	- Możliwość zmiany adresu e-mail: średni -> wysoki.
+	- Możliwość zmiany hasła: średni -> wysoki.
+
+----------------------------------------------------------------------------------------------------
+
+3. Usunięcie tytułu/celu w testach i przeniesienie ich treści do nazwy przypadku (na przykład: Przypadek 1 - Nazwa:).
+
+----------------------------------------------------------------------------------------------------
+
+4. Rozbicie przypadku rejestracji za pomocą niepoprawnych danych (przypadek 2), przez wzgląd na odmienność komunikatów, na przypadki:
+	- Podanie zbyt krótkiej nazwy użytkownika.
+	- Podanie nazwy użytkownika zawierającej niedozwolone znaki (niezgodnej z przyjętą polityką nazw użytkowników).
+	- Podanie adresu e-mail w niepoprawnym formacie.
+	- Podanie hasła niezgodnego z przyjętą polityką haseł.
+
+----------------------------------------------------------------------------------------------------
+
+5. Poprawa diagramu stanów dotyczącego rejestracji:
+	- Uwzględnienie przypadków z poprzedniego punktu (3).
+
+----------------------------------------------------------------------------------------------------
+
+6. Dodanie możliwości podania adresu e-mail:
+	- W diagramie stanów dotyczącym logowania.
+	- W diagramie sekwencji dotyczącym logowania.
+	- W diagramie sekwencji dotyczącym odzyskiwania (resetowania) hasła.
+
+----------------------------------------------------------------------------------------------------
+
+7. Sprawdzenie i poprawa błędów językowych w diagramach (wszystkich).
