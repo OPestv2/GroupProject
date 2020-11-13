@@ -42,9 +42,10 @@
 
 ----------------------------------------------------------------------------------------------------
 
-2. Zmiana priorytetów:
+2. Zmiana priorytetów: (ZROBIONE)
 	- Możliwość zmiany adresu e-mail: średni -> wysoki.
 	- Możliwość zmiany hasła: średni -> wysoki.
+    - Potwierdzenie dokonanych zmian na koncie za pomocą hasła: średni -> wysoki.
 
 ----------------------------------------------------------------------------------------------------
 

@@ -42,7 +42,7 @@ Przypadek 2a:
 	Tytuł: Próba zmiany hasła na inne, które jest zgodne z polityką haseł.
 	Cel: Weryfikacja działania procedury zmiany hasła w przypadku podania zgodnej z przyjętą polityką haseł wartości.
 	Wykonanie: Manualne.
-	Priorytet: Średni.
+	Priorytet: Wysoki.
 
 	Założenia:
 		- Użytkownik jest zalogowany.
@@ -62,7 +62,7 @@ Przypadek 2b:
 	Tytuł: Próba zmiany hasła na inne, które jest niezgodne z polityką haseł.
 	Cel: Weryfikacja działania procedury zmiany hasła w przypadku podania zgodnej z przyjętą polityką haseł wartości.
 	Wykonanie: Manualne.
-	Priorytet: Średni.
+	Priorytet: Wysoki.
 
 	Założenia:
 		- Użytkownik jest zalogowany.
@@ -82,7 +82,7 @@ Przypadek 3a:
 	Tytuł: Próba zmiany adresu e-mail na inny, w poprawnym formacie.
 	Cel: Weryfikacja działania procedury zmiany adresu e-mail na inny, w poprawnym formacie.
 	Wykonanie: Manualne.
-	Priorytet: Średni.
+	Priorytet: Wysoki.
 
 	Założenia:
 		- Użytkownik jest zalogowany.
@@ -102,7 +102,7 @@ Przypadek 3aa:
 	Tytuł: Potwierdzenie nowego adresu e-mail.
 	Cel: Weryfikacja działania procedury potwierdzenia nowego adresu e-mail.
 	Wykonanie: Manualne.
-	Priorytet: Średni.
+	Priorytet: Wysoki.
 
 	Założenia:
 		- Użytkownik otrzymał wiadomość zawierającą adres internetowy umożliwiający aktywację nowego adresu e-mail.
@@ -120,7 +120,7 @@ Przypadek 3b:
 	Tytuł: Próba zmiany adresu e-mail na inny, w niepoprawnym formacie.
 	Cel: Weryfikacja działania procedury zmiany adresu e-mail na inny, w niepoprawnym formacie.
 	Wykonanie: Manualne.
-	Priorytet: Średni.
+	Priorytet: Wysoki.
 
 	Założenia:
 		- Użytkownik jest zalogowany.
@@ -140,7 +140,7 @@ Przypadek Xa:
     Tytuł: Próba zapisania dokonanych zmian podając prawidłowe hasło.
     Cel: Weryfikacja działania procedury zapisania zmian dokonanych przez użytkownika za pomocą prawidłowego hasła.
     Wykonanie: Manualne.
-    Priorytet: Średni.
+    Priorytet: Wysoki.
 
     Założenia:
         - Użytkownik jest zalogowany.
@@ -160,7 +160,7 @@ Przypadek Xb:
     Tytuł: Próba zapisania dokonanych zmian podając nieprawidłowe hasło.
     Cel: Weryfikacja działania procedury zapisania zmian dokonanych przez użytkownika za pomocą nieprawidłowego hasła.
     Wykonanie: Manualne.
-    Priorytet: Średni.
+    Priorytet: Wysoki.
 
     Założenia:
         - Użytkownik jest zalogowany.
@@ -180,7 +180,7 @@ Przypadek Xc:
     Tytuł: Próba zapisania dokonanych zmian podając nieprawidłowe hasło wielokrotnie.
     Cel: Weryfikacja działania procedury zapisania zmian dokonanych przez użytkownika za pomocą wielokrotnego podania nieprawidłowego hasła.
     Wykonanie: Manualne.
-    Priorytet: Średni.
+    Priorytet: Wysoki.
 
     Założenia:
         - Użytkownik jest zalogowany.
