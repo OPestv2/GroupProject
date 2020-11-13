@@ -1,6 +1,6 @@
 Przypadek 1:
-	Tytuł: Logowanie za pomocą poprawnych danych.
-	Cel: Weryfikacja logowania przy użyciu aktywnego konta użytkownika.
+	Tytuł: Próba zalogowania za pomocą poprawnych danych.
+	Cel: Weryfikacja działania aplikacji w przypadku próby zalogowania się za pomocą poprawnych danych.
 	Wykonanie: Manualne/Automatyczne.
 	Priorytet: Wysoki.
 
@@ -19,8 +19,8 @@ Przypadek 1:
 ----------------------------------------------------------------------------------------------------
 
 Przypadek 2:
-	Tytuł: Próba logowania za pomocą niepoprawnych danych.
-	Cel: Weryfikacja działania aplikacji w przypadku wprowadzenia niepoprawnych danych logowania.
+	Tytuł: Próba zalogowania za pomocą niepoprawnych danych.
+	Cel: Weryfikacja działania aplikacji w przypadku próby zalogowania się za pomocą niepoprawnych danych.
 	Wykonanie: Automatyczne.
    	Priorytet: Wysoki.
 
@@ -61,8 +61,8 @@ Przypadek 3:
 ----------------------------------------------------------------------------------------------------
 
 Przypadek 4a:
-	Tytuł: Próba wielokrotnego zalogowania się za pomocą niepoprawnych danych.
-	Cel: Weryfikacja działania mechanizmu CAPTCHA dla nieprawidłowych danych.
+	Tytuł: Wielokrotne próby zalogowania się za pomocą niepoprawnych danych.
+	Cel: Weryfikacja działania mechanizmu CAPTCHA dla wielokrotnych prób zalogowania się za pomocą nieprawidłowych danych.
 	Wykonanie: Automatyczne.
 	Priorytet: Średni.
 	
@@ -84,8 +84,8 @@ Przypadek 4a:
 ----------------------------------------------------------------------------------------------------
 
 Przypadek 4b:
-	Tytuł: Próba wielokrotnego zalogowania się na nieaktywne konto.
-	Cel: Weryfikacja działania mechanizmu CAPTCHA dla nieaktywnego konta.
+	Tytuł: Wielokrotne próby zalogowania się za pomocą niepoprawnych danych.
+	Cel: Weryfikacja działania mechanizmu CAPTCHA dla wielokrotnych prób zalogowania się na nieaktywne konto.
 	Wykonanie: Manualne/Automatyczne.
 	Priorytet: Średni.
 
