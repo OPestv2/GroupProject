@@ -1,6 +1,4 @@
-Przypadek 1a:
-	Tytuł: Próba zmiany nazwy użytkownika na inną, unikalną i zgodną z przyjętą polityką nazw użytkowników wartość.
-	Cel: Weryfikacja działania procedury zmiany nazwy użytkownika w przypadku podania unikalnej i zgodnej z przyjętą polityką nazw użytkowników wartości.
+Przypadek 1a - Weryfikacja działania procedury zmiany nazwy użytkownika w przypadku podania unikalnej i zgodnej z przyjętą polityką nazw użytkowników wartości:
 	Wykonanie: Manualne.
 	Priorytet: Średni.
 
@@ -18,9 +16,7 @@ Przypadek 1a:
 
 ----------------------------------------------------------------------------------------------------
 
-Przypadek 1b:
-	Tytuł: Próba zmiany nazwy użytkownika na inną, nieunikalną lub niezgodną z przyjętą polityką nazw użytkowników wartość.
-	Cel: Weryfikacja działania procedury zmiany nazwy użytkownika w przypadku podania nieunikalnej lub zgodnej z przyjętą polityką nazw użytkowników wartości.
+Przypadek 1b - Weryfikacja działania procedury zmiany nazwy użytkownika w przypadku podania nieunikalnej lub zgodnej z przyjętą polityką nazw użytkowników wartości:
 	Wykonanie: Manualne.
 	Priorytet: Średni.
 
@@ -38,9 +34,7 @@ Przypadek 1b:
 
 ----------------------------------------------------------------------------------------------------
 
-Przypadek 2a:
-	Tytuł: Próba zmiany hasła na inne, które jest zgodne z polityką haseł.
-	Cel: Weryfikacja działania procedury zmiany hasła w przypadku podania zgodnej z przyjętą polityką haseł wartości.
+Przypadek 2a - Weryfikacja działania procedury zmiany hasła w przypadku podania zgodnej z przyjętą polityką haseł wartości:
 	Wykonanie: Manualne.
 	Priorytet: Wysoki.
 
@@ -58,9 +52,7 @@ Przypadek 2a:
 
 ----------------------------------------------------------------------------------------------------
 
-Przypadek 2b:
-	Tytuł: Próba zmiany hasła na inne, które jest niezgodne z polityką haseł.
-	Cel: Weryfikacja działania procedury zmiany hasła w przypadku podania zgodnej z przyjętą polityką haseł wartości.
+Przypadek 2b - Weryfikacja działania procedury zmiany hasła w przypadku podania zgodnej z przyjętą polityką haseł wartości:
 	Wykonanie: Manualne.
 	Priorytet: Wysoki.
 
@@ -78,9 +70,7 @@ Przypadek 2b:
 
 ----------------------------------------------------------------------------------------------------
 
-Przypadek 3a:
-	Tytuł: Próba zmiany adresu e-mail na inny, w poprawnym formacie.
-	Cel: Weryfikacja działania procedury zmiany adresu e-mail na inny, w poprawnym formacie.
+Przypadek 3a - Weryfikacja działania procedury zmiany adresu e-mail na inny, w poprawnym formacie.:
 	Wykonanie: Manualne.
 	Priorytet: Wysoki.
 
@@ -98,9 +88,7 @@ Przypadek 3a:
 
 ----------------------------------------------------------------------------------------------------
 
-Przypadek 3aa:
-	Tytuł: Potwierdzenie nowego adresu e-mail.
-	Cel: Weryfikacja działania procedury potwierdzenia nowego adresu e-mail.
+Przypadek 3aa - Weryfikacja działania procedury potwierdzenia nowego adresu e-mail:
 	Wykonanie: Manualne.
 	Priorytet: Wysoki.
 
@@ -116,9 +104,7 @@ Przypadek 3aa:
 
 ----------------------------------------------------------------------------------------------------
 
-Przypadek 3b:
-	Tytuł: Próba zmiany adresu e-mail na inny, w niepoprawnym formacie.
-	Cel: Weryfikacja działania procedury zmiany adresu e-mail na inny, w niepoprawnym formacie.
+Przypadek 3b - Weryfikacja działania procedury zmiany adresu e-mail na inny, w niepoprawnym formacie:
 	Wykonanie: Manualne.
 	Priorytet: Wysoki.
 
@@ -136,9 +122,7 @@ Przypadek 3b:
 
 ----------------------------------------------------------------------------------------------------
 
-Przypadek Xa:
-    Tytuł: Próba zapisania dokonanych zmian podając prawidłowe hasło.
-    Cel: Weryfikacja działania procedury zapisania zmian dokonanych przez użytkownika za pomocą prawidłowego hasła.
+Przypadek Xa - Weryfikacja działania procedury zapisania zmian dokonanych przez użytkownika za pomocą prawidłowego hasła.:
     Wykonanie: Manualne.
     Priorytet: Wysoki.
 
@@ -156,9 +140,7 @@ Przypadek Xa:
 
 ----------------------------------------------------------------------------------------------------
 
-Przypadek Xb:
-    Tytuł: Próba zapisania dokonanych zmian podając nieprawidłowe hasło.
-    Cel: Weryfikacja działania procedury zapisania zmian dokonanych przez użytkownika za pomocą nieprawidłowego hasła.
+Przypadek Xb - Weryfikacja działania procedury zapisania zmian dokonanych przez użytkownika za pomocą nieprawidłowego hasła:
     Wykonanie: Manualne.
     Priorytet: Wysoki.
 
@@ -176,9 +158,7 @@ Przypadek Xb:
 
 ----------------------------------------------------------------------------------------------------
 
-Przypadek Xc:
-    Tytuł: Próba zapisania dokonanych zmian podając nieprawidłowe hasło wielokrotnie.
-    Cel: Weryfikacja działania procedury zapisania zmian dokonanych przez użytkownika za pomocą wielokrotnego podania nieprawidłowego hasła.
+Przypadek Xc - Weryfikacja działania procedury zapisania zmian dokonanych przez użytkownika za pomocą wielokrotnego podania nieprawidłowego hasła:
     Wykonanie: Manualne.
     Priorytet: Wysoki.
 

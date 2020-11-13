@@ -1,39 +1,35 @@
-Przypadek 1:
-    Tytuł: Próba wysłania plików w dopuszczalnym formacie.
-    Cel: Weryfikacja działania procedury wysłania plików w dopuszczalnym formacie.
+Przypadek 1 - Weryfikacja działania procedury wysłania plików w dopuszczalnym formacie:
     Wykonanie: Manualne.
     Priorytet: Wysoki.
 
 	Założenia:
 		- Użytkownik jest zalogowany.
-        - Użytkownik znajduje się na ekranie swojego konta.
+		- Użytkownik znajduje się na ekranie swojego konta.
 
 	Kroki:
 		1. Użytkownik naciska przycisk "Dodaj pliki".
-        2. Użytkownik wybiera pliki do dodania - wszystkie w dopuszczalnym formacie.
-        3. Użytkownik zatwierdza swój wybór.
+		2. Użytkownik wybiera pliki do dodania - wszystkie w dopuszczalnym formacie.
+		3. Użytkownik zatwierdza swój wybór.
 
 	Oczekiwany rezultat:
 		- Pliki zostają zapisane na koncie użytkownika.
-        - Wyświetlony zostaje komunikat: "Wybrane pliki zostały pomyślnie dodane.".
+		- Wyświetlony zostaje komunikat: "Wybrane pliki zostały pomyślnie dodane.".
 
 ----------------------------------------------------------------------------------------------------
 
-Przypadek 2:
-    Tytuł: Próba wysłania plików w niedopuszczalnym formacie.
-    Cel: Weryfikacja działania procedury wysłania plików w niedopuszczalnym formacie.
+Przypadek 2 - Weryfikacja działania procedury wysłania plików w niedopuszczalnym formacie:
     Wykonanie: Manualne.
     Priorytet: Wysoki.
 
     Założenia:
-        - Użytkownik jest zalogowany.
-        - Użytkownik znajduje się na ekranie swojego konta.
+		- Użytkownik jest zalogowany.
+		- Użytkownik znajduje się na ekranie swojego konta.
 
     Kroki:
-        1. Użytkownik naciska przycisk "Dodaj pliki".
-        2. Użytkownik wybiera pliki do dodania - przynajmniej jeden w niedopuszczalnym formacie.
-        3. Użytkownik zatwierdza swój wybór.
+		1. Użytkownik naciska przycisk "Dodaj pliki".
+		2. Użytkownik wybiera pliki do dodania - przynajmniej jeden w niedopuszczalnym formacie.
+		3. Użytkownik zatwierdza swój wybór.
 
     Oczekiwany rezultat:
-        - Pliki nie zostają zapisane na koncie użytkownika.
-        - Wyświetlony zostaje komunikat: "Wybrane pliki nie zostały dodane.".
+		- Pliki nie zostają zapisane na koncie użytkownika.
+		- Wyświetlony zostaje komunikat: "Wybrane pliki nie zostały dodane.".

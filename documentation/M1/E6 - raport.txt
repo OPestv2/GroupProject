@@ -49,7 +49,7 @@
 
 ----------------------------------------------------------------------------------------------------
 
-3. Usunięcie tytułu/celu w testach i przeniesienie ich treści do nazwy przypadku (na przykład: Przypadek 1 - Nazwa:).
+3. Usunięcie z testów tytułu oraz celu i przeniesienie ich treści do nazwy przypadku (na przykład: Przypadek 1 - Nazwa:). (ZROBIONE)
 
 ----------------------------------------------------------------------------------------------------
 

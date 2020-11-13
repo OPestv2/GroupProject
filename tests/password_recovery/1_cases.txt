@@ -1,6 +1,4 @@
-Przypadek 1:
-	Tytuł: Próba odzyskania hasła za pomocą poprawnych danych.
-	Cel: Weryfikacja działania procedury odzyskiwania hasła przy użyciu poprawnej nazwy użytkownika lub adresu e-mail.
+Przypadek 1 - Weryfikacja działania procedury odzyskiwania hasła przy użyciu poprawnej nazwy użytkownika lub adresu e-mail:
 	Wykonanie: Manualne/Automatyczne.
 	Priorytet: Wysoki.
 
@@ -10,17 +8,15 @@ Przypadek 1:
 
 	Kroki:
 		1. Użytkownik naciska przycisk "Zresetuj hasło" ("Forgot password?").
-        	2. Użytkownik wprowadza poprawne dane w pole "Nazwa użytkownika lub adres e-mail".
+		2. Użytkownik wprowadza poprawne dane w pole "Nazwa użytkownika lub adres e-mail".
 
 	Oczekiwany rezultat:
 		- Na adres e-mail powiązany z kontem o podanej nazwie użytkownika (lub na podany adres e-mail) zostaje wysłany adres e-mail umożliwiający zresetowanie hasła.
-        - Wyświetlony zostaje komunikat: "Na podany adres e-mail została wysłana wiadomość zawierająca adres internetowy służący do zresetowania hasła.".
+		- Wyświetlony zostaje komunikat: "Na podany adres e-mail została wysłana wiadomość zawierająca adres internetowy służący do zresetowania hasła.".
 
 ----------------------------------------------------------------------------------------------------
 
-Przypadek 1a:
-	Tytuł: Próba zmiany hasła podając hasło zgodne z przyjętą polityką haseł.
-	Cel: Weryfikacja działania procedury zmiany hasła na hasło zgodne z przyjętą polityką haseł.
+Przypadek 1a - Weryfikacja działania procedury zmiany hasła na hasło zgodne z przyjętą polityką haseł:
 	Wykonanie: Manualne.
 	Priorytet: Wysoki.
 
@@ -29,19 +25,17 @@ Przypadek 1a:
 
 	Kroki:
 		1. Użytkownik wprowadza nowe hasło, które jest zgodne z przyjętą polityką haseł.
-        	2. Użytkownik ponownie wprowadza nowe hasło.
-        	3. Użytkownik powtarza krok 2 do momentu, aż obie wartości (nowe hasło i powtórzone nowe hasło) nie będą się zgadzać.
-        	4. Użytkownik naciska przycisk "Zmień hasło".
+		2. Użytkownik ponownie wprowadza nowe hasło.
+		3. Użytkownik powtarza krok 2 do momentu, aż obie wartości (nowe hasło i powtórzone nowe hasło) nie będą się zgadzać.
+		4. Użytkownik naciska przycisk "Zmień hasło".
 
 	Oczekiwany rezultat:
 		- Hasło zostaje zmienione.
-        - Zostaje wyświetlona informacja o pomyślnej zmianie hasła.
+		- Zostaje wyświetlona informacja o pomyślnej zmianie hasła.
 
 ----------------------------------------------------------------------------------------------------
 
-Przypadek 1b:
-	Tytuł: Próba zmiany hasła podając hasło niezgodne z przyjętą polityką haseł.
-	Cel: Weryfikacja działania procedury zmiany hasła na hasło niezgodne z przyjętą polityką haseł.
+Przypadek 1b - Weryfikacja działania procedury zmiany hasła na hasło niezgodne z przyjętą polityką haseł:
 	Wykonanie: Manualne.
 	Priorytet: Wysoki.
 
@@ -50,19 +44,17 @@ Przypadek 1b:
 
 	Kroki:
 		1. Użytkownik wprowadza nowe hasło, które jest niezgodne z przyjętą polityką haseł.
-        	2. Użytkownik ponownie wprowadza nowe hasło.
-        	3. Użytkownik powtarza krok 2 do momentu, aż obie wartości (nowe hasło i powtórzone nowe hasło) nie będą się zgadzać.
-        	4. Użytkownik naciska przycisk "Zmień hasło".
+		2. Użytkownik ponownie wprowadza nowe hasło.
+		3. Użytkownik powtarza krok 2 do momentu, aż obie wartości (nowe hasło i powtórzone nowe hasło) nie będą się zgadzać.
+		4. Użytkownik naciska przycisk "Zmień hasło".
 
 	Oczekiwany rezultat:
 		- Hasło nie zostaje zmienione.
-        - Zostaje wyświetlona informacja o niepomyślnym zakończeniu procedury zmiany hasła.
+		- Zostaje wyświetlona informacja o niepomyślnym zakończeniu procedury zmiany hasła.
 
 ----------------------------------------------------------------------------------------------------
 
-Przypadek 2:
-	Tytuł: Próba odzyskania hasła za pomocą niepoprawnych danych.
-	Cel: Weryfikacja działania procedury odzyskiwania hasła przy użyciu niepoprawnej nazwy użytkownika lub adresu e-mail.
+Przypadek 2 - Weryfikacja działania procedury odzyskiwania hasła przy użyciu niepoprawnej nazwy użytkownika lub adresu e-mail:
 	Wykonanie: Manualne/Automatyczne.
 	Priorytet: Wysoki.
 
@@ -79,9 +71,7 @@ Przypadek 2:
 
 ----------------------------------------------------------------------------------------------------
 
-Przypadek 3:
-	Tytuł: Wielokrotna próba odzyskania hasła za pomocą niepoprawnych danych.
-	Cel: Weryfikacja działania procedury odzyskiwania hasła przy wielokrotnym użyciu niepoprawnej nazwy użytkownika lub adresu e-mail.
+Przypadek 3 - Weryfikacja działania procedury odzyskiwania hasła przy wielokrotnym użyciu niepoprawnej nazwy użytkownika lub adresu e-mail:
 	Wykonanie: Manualne/Automatyczne.
 	Priorytet: Wysoki.
 
@@ -91,9 +81,9 @@ Przypadek 3:
 
 	Kroki:
 		1. Użytkownik naciska przycisk "Zresetuj hasło" ("Forgot password?").
-        	2. Użytkownik wprowadza niepoprawne dane w pole "Nazwa użytkownika lub adres e-mail".
-        	3. Poprzednie kroki zostają powtórzone więcej niż jeden raz.
+		2. Użytkownik wprowadza niepoprawne dane w pole "Nazwa użytkownika lub adres e-mail".
+		3. Poprzednie kroki zostają powtórzone więcej niż jeden raz.
 
 	Oczekiwany rezultat:
-        	- Zostaje uruchomiony mechanizm CAPTCHA.
-        	- Wyświetlony zostaje komunikat: "Nie znaleziono użytkownika o podanej nazwie ani adresie e-mail.".
+		- Zostaje uruchomiony mechanizm CAPTCHA.
+		- Wyświetlony zostaje komunikat: "Nie znaleziono użytkownika o podanej nazwie ani adresie e-mail.".
