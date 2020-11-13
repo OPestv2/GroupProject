@@ -1,4 +1,4 @@
-1. Zmiana nazewnictwa obiektów zawartych w kategorii "tests":
+1. Zmiana nazewnictwa obiektów zawartych w kategorii "tests": (ZROBIONE)
 	- login_tests -> login
 		- 0_login_tests_readme.txt -> 0_readme.txt
 		- 1_login_cases.txt -> 1_cases.txt
