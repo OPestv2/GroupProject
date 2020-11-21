@@ -1,0 +1,48 @@
+Przypadek 1 - Weryfikacja działania procedury wyszukiwania przez użytkownika istniejących danych:
+	Wykonanie: Manualne/Automatyczne.
+	Priorytet: Wysoki.
+
+	Założenia:
+		- Użytkownik jest zalogowany.
+
+	Kroki:
+		1. Użytkownik wpisuje istniejące (w bazie danych aplikacji) dane w pole "Wyszukaj".
+        2. Użytkownik dostosowuje filtry wyszukiwania tak, żeby nie spowodowały braku rezultatów wyszukiwania.
+		3. Użytkownik naciska przycisk "Szukaj".
+
+	Oczekiwany rezultat:
+		- Wyświetlone zostają dostępne informacje powiązane z wpisanymi przez użytkownika danymi.
+
+----------------------------------------------------------------------------------------------------
+
+Przypadek 2a - Weryfikacja działania procedury wyszukiwania przez użytkownika nieistniejących danych:
+	Wykonanie: Manualne/Automatyczne.
+	Priorytet: Wysoki.
+
+	Założenia:
+		- Użytkownik jest zalogowany.
+
+	Kroki:
+		1. Użytkownik wpisuje nieistniejące (w bazie danych aplikacji) dane w pole "Wyszukaj".
+        2. Użytkownik dostosowuje filtry wyszukiwania.
+		3. Użytkownik naciska przycisk "Szukaj".
+
+	Oczekiwany rezultat:
+		- Wyświetlony zostaje komunikat o braku informacji powiązanych z wprowadzonymi danymi.
+
+----------------------------------------------------------------------------------------------------
+
+Przypadek 2b - Weryfikacja działania procedury wyszukiwania przez użytkownika istniejących danych, ale wykluczonych przez filtry wyszukiwania:
+	Wykonanie: Manualne/Automatyczne.
+	Priorytet: Wysoki.
+
+	Założenia:
+		- Użytkownik jest zalogowany.
+
+	Kroki:
+		1. Użytkownik wpisuje istniejące (w bazie danych aplikacji) dane w pole "Wyszukaj".
+        2. Użytkownik dostosowuje filtry wyszukiwania tak, żeby spowodowały braku rezultatów wyszukiwania.
+		3. Użytkownik naciska przycisk "Szukaj".
+
+	Oczekiwany rezultat:
+		- Wyświetlony zostaje komunikat o braku informacji powiązanych z wprowadzonymi danymi.
