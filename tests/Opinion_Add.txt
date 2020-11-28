@@ -1,0 +1,21 @@
+1)Przypadek 1 - Weryfikacja działania procedury dodawania opinii przez zalogowanego użytkownika:
+	Wykonanie: Manualne.
+	Priorytet: Wysoki.
+	
+	Założenia:
+		-Użytkownik jest zalogowany.
+		
+	Kroki:
+		1)Użytkownik wpisuje opinię w odpowiednie pole.
+		2)Użytkownik naciska przycisk "Dodaj opinię"
+	
+	Oczekiwany rezultat:
+		-Opinia zostanie dodana do listy opini.
+		
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+		
+		
