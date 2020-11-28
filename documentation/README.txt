@@ -82,6 +82,7 @@ Milestone III
 	klient desktopowy - aplikacja
 
 	Epics
+		aplikacja desktopowa
 		wszystko jak powyżej + synchronizacja z bazą danych
 
 
