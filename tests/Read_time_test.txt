@@ -1,0 +1,15 @@
+1)Przypadek 1 - Weryfikacja działania procedury wyliczenia i wyświetlania szacowanego czasu czytania:
+	Wykonanie: Manualne.
+	Priorytet: Wysoki.
+	
+	Założenia:
+		-Użytkownik jest zalogowany.
+		
+	Kroki:
+	    1)Użytkownik wybiera książkę.
+		2)Użytkownik naciska przycisk "Wyświetl czas szacowany czas czytania"
+	
+	Oczekiwany rezultat:
+		-Zostanie wyliczony i wyświetlony szacowany czas czytania.
+		
+------------------------------------------------------------------------------------------------------------------

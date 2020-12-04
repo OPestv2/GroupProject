@@ -1,0 +1,14 @@
+1)Przypadek 1 - Weryfikacja działania procedury wyswietlania najlepszych multimediów(książek) według rankigu:
+	Wykonanie: Manualne.
+	Priorytet: Wysoki.
+	
+	Założenia:
+		-Użytkownik jest zalogowany.
+		
+	Kroki:
+		1)Użytkownik naciska przycisk "Wyświetl najlepsze multimedia"
+	
+	Oczekiwany rezultat:
+		-Zostaną wyświetlone top 10 aktualnie najlepszych multimediów(książek).
+		
+------------------------------------------------------------------------------------------------------------------
