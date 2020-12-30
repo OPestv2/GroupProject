@@ -1,6 +1,6 @@
 1)Przypadek 1 - Weryfikacja działania procedury dodawania opinii przez zalogowanego użytkownika:
 	Wykonanie: Manualne.
-	Priorytet: Wysoki.
+	Priorytet: Średni.
 	
 	Założenia:
 		-Użytkownik jest zalogowany.

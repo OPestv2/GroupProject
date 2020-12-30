@@ -1,6 +1,6 @@
 1)Przypadek 1 - Weryfikacja działania procedury wyswietlania najlepszych multimediów(książek) według rankigu:
 	Wykonanie: Manualne.
-	Priorytet: Wysoki.
+	Priorytet: Niski.
 	
 	Założenia:
 		-Użytkownik jest zalogowany.

@@ -1,6 +1,6 @@
 1)Przypadek 1 - Weryfikacja działania procedury dodania multimedia(książki) do listy ulubionych, które jeszcze nie zostało dodane do tej listy:
 	Wykonanie: Manualne.
-	Priorytet: Wysoki.
+	Priorytet: Średni.
 	
 	Założenia:
 		-Użytkownik jest zalogowany.
@@ -16,7 +16,7 @@
 
 2)Przypadek 2 - Weryfikacja działania procedury dodania multimedia(książki) do listy ulubionych, które już zostało dodane do tej listy:
 	Wykonanie: Manualne.
-	Priorytet: Wysoki.
+	Priorytet: Średni.
 	
 	Założenia:
 		-Użytkownik jest zalogowany.

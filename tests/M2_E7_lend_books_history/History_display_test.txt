@@ -1,6 +1,6 @@
 1)Przypadek 1 - Weryfikacja działania procedury wyświetlania historii wypożyczeń przez zalogowanego użytkownika:
 	Wykonanie: Manualne.
-	Priorytet: Wysoki.
+	Priorytet: Średni.
 	
 	Założenia:
 		-Użytkownik jest zalogowany.

@@ -1,6 +1,6 @@
 1)Przypadek 1 - Weryfikacja działania procedury dodania multimedia(książki) do listy życzeń, które jeszcze nie zostało dodane do tej listy:
 	Wykonanie: Manualne.
-	Priorytet: Wysoki.
+	Priorytet: Niski.
 	
 	Założenia:
 		-Użytkownik jest zalogowany.

@@ -1,6 +1,6 @@
 1)Przypadek 1 - Weryfikacja działania procedury wyliczenia i wyświetlania szacowanego czasu czytania:
 	Wykonanie: Manualne.
-	Priorytet: Wysoki.
+	Priorytet: Niski.
 	
 	Założenia:
 		-Użytkownik jest zalogowany.

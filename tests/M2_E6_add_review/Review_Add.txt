@@ -1,6 +1,6 @@
 1)Przypadek 1 - Weryfikacja działania procedury dodawania recenzji przez użytkownika, który posiada daną książkę(kupił lub wypożyczył):
 	Wykonanie: Manualne.
-	Priorytet: Wysoki.
+	Priorytet: Średni.
 	
 	Założenia:
 		-Użytkownik jest zalogowany.
@@ -20,7 +20,7 @@
 
 2)Przypadek 2 - Weryfikacja działania procedury dodawania recenzji przez użytkownika, który nie posiada daną książkę:
 	Wykonanie: Manualne.
-	Priorytet: Wysoki.
+	Priorytet: Średni.
 	
 	Założenia:
 		-Użytkownik jest zalogowany.

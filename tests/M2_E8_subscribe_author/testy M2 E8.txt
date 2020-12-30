@@ -1,6 +1,6 @@
 Przypadek 1 - Weryfikacja działania procedury dodawania autora do listy ulubionych autorzy przez użytkownika poprzez uzytkownika ktory juz ma tego autora w tej liscie:
-	Wykonanie: Manualne/Automatyczne.
-	Priorytet: Wysoki.
+	Wykonanie: Manualne.
+	Priorytet: Średni.
 
 	Założenia:
 		- Użytkownik jest zalogowany.
@@ -18,7 +18,7 @@ Przypadek 1 - Weryfikacja działania procedury dodawania autora do listy ulubion
 
 Przypadek 2a - Weryfikacja działania procedury dodawania autora do listy ulubionych autorzy przez użytkownika poprzez uzytkownika ktory nie ma tego autora w tej liscie:
 	Wykonanie: Manualne/Automatyczne.
-	Priorytet: Wysoki.
+	Priorytet: Średni.
 
 	Założenia:
 		- Użytkownik jest zalogowany.
@@ -37,8 +37,8 @@ Przypadek 2a - Weryfikacja działania procedury dodawania autora do listy ulubio
 ----------------------------------------------------------------------------------------------------
 
 Przypadek 2b - Weryfikacja działania procedury dodawania autora do listy ulubionych autorzy przez użytkownika poprzez uzytkownika ktory nie ma tego autora w tej liscie:
-	Wykonanie: Manualne/Automatyczne.
-	Priorytet: Wysoki.
+	Wykonanie: Manualne.
+	Priorytet: Średni.
 
 	Założenia:
 		- Użytkownik jest zalogowany.
@@ -58,8 +58,8 @@ Przypadek 2b - Weryfikacja działania procedury dodawania autora do listy ulubio
 ----------------------------------------------------------------------------------------------------
 
 Przypadek 2c - Weryfikacja działania procedury dodawania autora do listy ulubionych autorzy przez użytkownika poprzez uzytkownika ktory nie ma tego autora w tej liscie:
-	Wykonanie: Manualne/Automatyczne.
-	Priorytet: Wysoki.
+	Wykonanie: Manualne.
+	Priorytet: Średni.
 
 	Założenia:
 		- Użytkownik jest zalogowany.
