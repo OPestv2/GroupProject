@@ -1455,7 +1455,7 @@
 												"$ref": "AAAAAAF2zLFqucf8BtA="
 											},
 											"font": "Arial;13;0",
-											"left": 232.72998046875,
+											"left": 264.72998046875,
 											"top": 373,
 											"width": 123.8017578125,
 											"height": 13,
@@ -1468,7 +1468,7 @@
 												"$ref": "AAAAAAF2zLFqucf8BtA="
 											},
 											"font": "Arial;13;1",
-											"left": 213,
+											"left": 245,
 											"top": 373,
 											"width": 14.72998046875,
 											"height": 13,
@@ -1502,13 +1502,13 @@
 															},
 															"visible": false,
 															"font": "Arial;13;0",
-															"left": 228,
+															"left": 260,
 															"top": 406,
 															"height": 13
 														}
 													],
 													"font": "Arial;13;0",
-													"left": 208,
+													"left": 240,
 													"top": 391,
 													"width": 249,
 													"height": 43,
@@ -1518,14 +1518,14 @@
 												}
 											],
 											"font": "Arial;13;0",
-											"left": 208,
+											"left": 240,
 											"top": 391,
 											"width": 249,
 											"height": 43
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 208,
+									"left": 240,
 									"top": 368,
 									"width": 249,
 									"height": 113,
@@ -1556,7 +1556,7 @@
 												"$ref": "AAAAAAF2zLNLx8hILFA="
 											},
 											"font": "Arial;13;0",
-											"left": 63.9599609375,
+											"left": 56.72998046875,
 											"top": 645,
 											"width": 92.76806640625,
 											"height": 13,
@@ -1571,9 +1571,9 @@
 											"font": "Arial;13;1",
 											"left": 37,
 											"top": 645,
-											"width": 21.9599609375,
+											"width": 14.72998046875,
 											"height": 13,
-											"text": "seq"
+											"text": "alt"
 										},
 										{
 											"_type": "UMLInteractionOperandCompartmentView",
@@ -2368,7 +2368,7 @@
 								"$ref": "AAAAAAF2zKScGcYyBPY="
 							},
 							"name": "login successful",
-							"interactionOperator": "seq",
+							"interactionOperator": "alt",
 							"operands": [
 								{
 									"_type": "UMLInteractionOperand",
