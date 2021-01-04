@@ -1,5 +1,5 @@
 
-## Grupa 7 Group project 2020
+## Grupa 7 Group project 2020 | Book4You 
 ## Jakub Sieczka, Mykola Ostapchuk, Rafał Siejka, Łukasz Kaluźniak, Ostap Fedorv
 
 
@@ -10,38 +10,29 @@
 ############################################################################
 
 #### Overall project description
-
-
+	Book4You to najlepsza internetowa wypożyczalnia multimediów online. PDFy, filmy, muzyka. Wiele różnych gatunków i tematów.
 
 #### Motivation and goal
-
-
+	Strona ma ułatwić dostęp do wiedzy i rozrywki nieograniczonej ilością egzemplarzy lub koniecznością odwiedzenia stacjonarnej placówki. Dzięki cyfrowej wersji, nie trzeba się martwić o jej zgubienie lub zniszczenie. Dodatkowo komfort użytkowania zawsze jest tak wysoki jakby egzemplarz był pierwszy raz używany. Dzięki klientowi, który jest dostępny na systemy W/L/M, możesz korzystać z wypożyczonych rzeczy w dowolnym miejscu i czasie.
 
 #### Milestones, epics, tasks/stories, subtasks
-
+	system kont (rejestracja, logowanie, obsługa konta), klient internetowy (wypożyczanie, ocenianie, komentowanie, polecanie), klient desktopowy ( - // - )
 
 
 #### Hardware infrastructure / technologies
+	Windows / Linux / Mac / Mobile (resposive) -> strona internetowa
+	Windows / Linux / Mac -> apka desktopowa
+
+
+#### Used environments
 	GitHub
 	Jira
 	StarUML
 
-#### Used environments
-	HTML
-	CSS
-	PHP
-	MySQL
-	JavaScript
-
-#### 
-	Stałe - CAPSLOCK						CONST = 3;
-	Parametry,Zmienne - camelCasem			arraySize = 1;
-	Zapytania - z_dolnymi_podkresleniami	select user_id from users;
-
 
 ############################################################################
 ################											################
-################		   Milestones, epics, tasks 		################
+################		   Milestones, Epics        		################
 ################											################
 ############################################################################
 
@@ -87,34 +78,3 @@ Milestone III
 
 
 		***********************************
-Milestone IV
-	księgarnia - online & aplikacja
-
-	Epics
-		chuj wie na ten moment
-
-
-	***********************************
-Milestone V
-	antykwariat ???
-
-
-
-
-
-
-ZAKŁĄDKI
-	aktywne
-		...,...,...,(DO KOŃCA 1 DZIĘŃ!),(SKOŃCZYŁO SIE 3h temu) (zamknij X | same znikają po jakimś czasie)
-
-
-	przeczytane
-
-	polecane
-
-
-
-
-
-
-
