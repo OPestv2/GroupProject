@@ -4,43 +4,6 @@
 	"name": "Untitled",
 	"ownedElements": [
 		{
-			"_type": "UMLModel",
-			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
-			"_parent": {
-				"$ref": "AAAAAAFF+h6SjaM2Hec="
-			},
-			"name": "Model",
-			"ownedElements": [
-				{
-					"_type": "UMLClassDiagram",
-					"_id": "AAAAAAFF+qBtyKM79qY=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Main",
-					"defaultDiagram": true
-				}
-			]
-		},
-		{
-			"_type": "UMLModel",
-			"_id": "AAAAAAF2zKRmKsYsJoo=",
-			"_parent": {
-				"$ref": "AAAAAAFF+h6SjaM2Hec="
-			},
-			"name": "Model1",
-			"ownedElements": [
-				{
-					"_type": "UMLClassDiagram",
-					"_id": "AAAAAAF2zKRmK8YtX+w=",
-					"_parent": {
-						"$ref": "AAAAAAF2zKRmKsYsJoo="
-					},
-					"name": "ClassDiagram1"
-				}
-			]
-		},
-		{
 			"_type": "UMLCollaboration",
 			"_id": "AAAAAAF2zKScGMYx6mE=",
 			"_parent": {
@@ -2435,7 +2398,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF2zKScGMYx6mE="
 					},
-					"name": "Role1"
+					"name": "Role1",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -2443,7 +2407,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF2zKScGMYx6mE="
 					},
-					"name": "Role2"
+					"name": "Role2",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -2451,7 +2416,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF2zKScGMYx6mE="
 					},
-					"name": "Role3"
+					"name": "Role3",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -2459,7 +2425,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF2zKScGMYx6mE="
 					},
-					"name": "Role4"
+					"name": "Role4",
+					"type": ""
 				}
 			]
 		}
