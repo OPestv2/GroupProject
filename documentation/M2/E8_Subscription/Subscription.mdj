@@ -61,7 +61,7 @@
 														"$ref": "AAAAAAF20vwie0zcUd0="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 78.97900390625,
 													"top": 13,
 													"width": 70.3671875,
 													"height": 13,
@@ -76,9 +76,9 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 60.97900390625,
 													"height": 13,
-													"text": "sd"
+													"text": "interaction"
 												}
 											],
 											"font": "Arial;13;0",
@@ -1047,7 +1047,7 @@
 														"$ref": "AAAAAAF20wzT5U5Et1k="
 													},
 													"edgePosition": 1,
-													"text": "4 : check payment"
+													"text": "4 : Payment"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -1736,7 +1736,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF20vwiekzaNIs="
 									},
-									"name": "check payment",
+									"name": "Payment",
 									"source": {
 										"$ref": "AAAAAAF20v00hU0OF2w="
 									},
@@ -1903,7 +1903,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF20vwiekzZT9k="
 							},
-							"name": "Role1"
+							"name": "Role1",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1911,7 +1912,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF20vwiekzZT9k="
 							},
-							"name": "Role2"
+							"name": "Role2",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1919,7 +1921,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF20vwiekzZT9k="
 							},
-							"name": "Role3"
+							"name": "Role3",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1927,7 +1930,8 @@
 							"_parent": {
 								"$ref": "AAAAAAF20vwiekzZT9k="
 							},
-							"name": "Role4"
+							"name": "Role4",
+							"type": ""
 						}
 					]
 				}

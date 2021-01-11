@@ -1464,19 +1464,6 @@
 											"activation": {
 												"$ref": "AAAAAAF2zXlbBgdbHQY="
 											}
-										},
-										{
-											"_type": "UMLNoteView",
-											"_id": "AAAAAAF21zRJrdt5WKc=",
-											"_parent": {
-												"$ref": "AAAAAAF2rdlqD24Spjc="
-											},
-											"font": "Arial;13;0",
-											"left": 392,
-											"top": 288,
-											"width": 76.13232421875,
-											"height": 40,
-											"text": "Validation"
 										}
 									]
 								}
