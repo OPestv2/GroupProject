@@ -18,7 +18,7 @@
 	WHERE login like '*login*' 
 	AND password_hash like '*password_hash*'
 	
-	SELECT activated_emai 
+	SELECT activated_email 
 	FROM Users 
 	WHERE login like '*login*' 
 	AND password_hash like '*password_hash*'

@@ -563,7 +563,7 @@
 												"$ref": "AAAAAAF2zNEDxYHK+7Q="
 											},
 											"edgePosition": 1,
-											"text": "1 : http Request(get multimedia)"
+											"text": "1 : http Request(multimedia_id)"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1130,17 +1130,17 @@
 												"$ref": "AAAAAAF2zXRDsh8Vtw0="
 											},
 											"font": "Arial;13;0",
-											"left": 389,
+											"left": 383,
 											"top": 317,
 											"width": 160.4052734375,
 											"height": 13,
-											"alpha": 1.5707963267948966,
-											"distance": 10,
+											"alpha": 0.9600710335469431,
+											"distance": 12.206555615733702,
 											"hostEdge": {
 												"$ref": "AAAAAAF2zXRDsh8WEAU="
 											},
 											"edgePosition": 1,
-											"text": "5 : give acces to multimedia"
+											"text": "5 : "
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1353,9 +1353,9 @@
 												"$ref": "AAAAAAF2zXUmDR9CjiM="
 											},
 											"font": "Arial;13;0",
-											"left": 260,
+											"left": 244,
 											"top": 401,
-											"width": 220.3779296875,
+											"width": 252.90966796875,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -1363,7 +1363,7 @@
 												"$ref": "AAAAAAF2zXUmDR9Dul8="
 											},
 											"edgePosition": 1,
-											"text": "7 : Update view, redirect to multimedia"
+											"text": "7 : Update view, redirect to multimedia page"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1683,7 +1683,7 @@
 							"target": {
 								"$ref": "AAAAAAF2zNAiS4Fi5JU="
 							},
-							"arguments": "get multimedia"
+							"arguments": "multimedia_id"
 						},
 						{
 							"_type": "UMLMessage",
@@ -1733,7 +1733,6 @@
 							"_parent": {
 								"$ref": "AAAAAAF2zM8cZYExnkw="
 							},
-							"name": "give acces to multimedia",
 							"source": {
 								"$ref": "AAAAAAF2zNBcQ4GiLhg="
 							},
@@ -1762,7 +1761,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF2zM8cZYExnkw="
 							},
-							"name": "Update view, redirect to multimedia",
+							"name": "Update view, redirect to multimedia page",
 							"source": {
 								"$ref": "AAAAAAF2zNAiS4Fi5JU="
 							},
