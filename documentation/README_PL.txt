@@ -1,5 +1,5 @@
 ##### Grupa 7 Group project 2020 | Book4You 
-##### Jakub Sieczka, Mykola Ostapchuk, Rafał Siejka, Łukasz Kaluźniak, Ostap Fedoriv
+##### Jakub Sieczka, Mykola Ostapchuk, Rafał Siejka, Łukasz Kaluźniak, Ostap Fedorv
 
 
 ############################################################################
@@ -9,7 +9,7 @@
 ############################################################################
 
 
------ OGÓLNY OPIS PROJEKTU -----
+----- Ogólny opis projektu -----
     Book4You to najlepsza internetowa wypożyczalnia multimediów online. Wiele różnych gatunków i tematów.
 --------------------------------
 
@@ -20,17 +20,24 @@
 
 
 ----- KAMIENIE MILOWE, EPIKI, ZADANIA/HISTORYJKI, PODZADANIA -----
+=======
+----- Motywacja i cel -----
+    Strona ma ułatwić dostęp do wiedzy i rozrywki nieograniczonej ilością egzemplarzy lub koniecznością odwiedzenia stacjonarnej placówki. Dzięki cyfrowej wersji, nie trzeba się martwić o jej zgubienie lub zniszczenie. Dodatkowo komfort użytkowania zawsze jest tak wysoki jakby egzemplarz był pierwszy raz używany. Dzięki naszej strone możesz korzystać z wypożyczonych plików w dowolnym miejscu i czasie.
+---------------------------
+
+----- Kamienie milowe, epiki, zadania/historyjki, podzadania -----
+>>>>>>> c0bd690c3c455487bdc9b819cee48983e8eb00f8
     - System kont (rejestracja, logowanie, obsługa konta)
     - Klient internetowy (wypożyczanie, ocenianie, komentowanie, polecanie), klient desktopowy
 ------------------------------------------------------------------
 
 
------ INFRASTRUKTURA SPRZĘTOWA / TECHNOLOGIE -----
+----- Infrastruktura sprzętowa / technologie -----
     - Windows / Linux / Mac / Mobile (responsywność) -> strona internetowa
 --------------------------------------------------
 
 
------ WYKORZYSTANIE ŚRODOWISKA -----
+----- Wykorzystane środowiska -----
     - GitHub
     - Jira
     - StarUML
@@ -72,7 +79,7 @@
 ----------------------------
 
 ----- Kamień milowy III -----
-    - Website service - diagramy klas z użyciem modelu MVC
+    - Serwis internetowy - diagramy klas przy użyciu modelu MVC
 
     - Epics
         1. Diagram klas - Użytkownik (blokady, powiadomienia, role, użytkownik, ...)
