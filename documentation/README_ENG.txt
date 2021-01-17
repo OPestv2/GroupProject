@@ -25,10 +25,8 @@
 ------------------------------------------------------
 
 
------ Hardware infrastructure / technologies -----
 ----- HARDWARE INFRASTRUCTURE / TECHNOLOGIES -----
     - Windows / Linux / Mac / Mobile (responsivity) -> Internet website
-    - Windows / Linux / Mac -> desktop app
 --------------------------------------------------
 
 
@@ -70,14 +68,15 @@
         8.  Subscriptions
         9.  Estimated reading time
         10. Buttons
+        11. E-mail activation
 -----------------------
 
 ----- Milestone III -----
     - Website service - class diagrams based on MVC model
 
     - Epics
-        - Class diagram - User (bans, notifications, roles, user, ...)
-        - Class diagram - Opinions (opinions, reviews)
-        - Class diagram - Logs (log, log_types)
-        - Class diagram - Multimedia (multimedia, subscriptions, whishlist, favourites, multimedia_type)
+        1. Class diagram - User (bans, notifications, roles, user, ...)
+        2. Class diagram - Opinions (opinions, reviews)
+        3. Class diagram - Logs (log, log_types)
+        4. Class diagram - Multimedia (multimedia, subscriptions, whishlist, favourites, multimedia_type)
 ------------------------
