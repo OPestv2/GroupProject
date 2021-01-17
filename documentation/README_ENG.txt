@@ -1,5 +1,5 @@
 ##### Grupa 7 Group project 2020 | Book4You 
-##### Jakub Sieczka, Mykola Ostapchuk, Rafał Siejka, Łukasz Kaluźniak, Ostap Fedorv
+##### Jakub Sieczka, Mykola Ostapchuk, Rafał Siejka, Łukasz Kaluźniak, Ostap Fedoriv
 
 
 ############################################################################
@@ -10,12 +10,12 @@
 
 
 ----- OVERALL PROJECT DESCRIPTION -----
-    Book4You - the best online multimedia rental shop on the Internet. PDFs, movies, music. Many different genres and topics.
+    Book4You - the best online multimedia rental shop on the Internet. Many different genres and topics.
 ---------------------------------------
 
 
 ----- MOTIVATION AND GOAL -----
-    Main purpose of this web service is to facilitate the access to knowledge and entertainment - with limitless amount of copies and without the necessity to visit a stationary facility. Because of the the digital version of the product, you no longer need to worry about its loss or destruction. Additionally, comfort of using the digital product is always as high as it would be used for the first time. Thanks to the client, which is available for the Windows, Linux, and Mac operating systems, you can use the borrowed items anytime, anywhere.
+    Main purpose of this web service is to facilitate the access to knowledge and entertainment - with limitless amount of copies and without the necessity to visit a stationary facility. Because of the the digital version of the product, you no longer need to worry about its loss or destruction. Additionally, comfort of using the digital product is always as high as it would be used for the first time.
 -------------------------------
 
 

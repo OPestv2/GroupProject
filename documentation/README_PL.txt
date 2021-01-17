@@ -1,5 +1,5 @@
 ##### Grupa 7 Group project 2020 | Book4You 
-##### Jakub Sieczka, Mykola Ostapchuk, Rafał Siejka, Łukasz Kaluźniak, Ostap Fedorv
+##### Jakub Sieczka, Mykola Ostapchuk, Rafał Siejka, Łukasz Kaluźniak, Ostap Fedoriv
 
 
 ############################################################################
@@ -10,7 +10,7 @@
 
 
 ----- OGÓLNY OPIS PROJEKTU -----
-    Book4You to najlepsza internetowa wypożyczalnia multimediów online. PDFy, filmy, muzyka. Wiele różnych gatunków i tematów.
+    Book4You to najlepsza internetowa wypożyczalnia multimediów online. Wiele różnych gatunków i tematów.
 --------------------------------
 
 ----- MOTYWACJA I CEL -----
