@@ -53,7 +53,7 @@ Milestone I
 
 		***********************************
 Milestone II
-	klient internetowy - strona internetowa
+	strona internetowa - diagramy stanów i sekwencji z uzyciem modelu mvc
 
 	Epics
 		wypozyczanie
@@ -70,11 +70,16 @@ Milestone II
 
 		***********************************
 Milestone III
-	klient desktopowy - aplikacja
+	strona internetowa - diagramy klas z uzyciem modelu mvc
 
 	Epics
-		aplikacja desktopowa
-		wszystko jak powyżej + synchronizacja z bazą danych
+		Diagram klas Uzytkownika (bans, notifications, role, user, )
+		
+		Diagram klas Opinie (opinions, reviews)
+		
+		Diagram klas Logi (logs, log_types)
+		
+		Diagram klas Multimedia (multimedia, subs, whishlist, favourites, multimedia_type)
 
 
 		***********************************

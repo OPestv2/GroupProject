@@ -12,15 +12,6 @@
 			"name": "Model",
 			"ownedElements": [
 				{
-					"_type": "UMLClassDiagram",
-					"_id": "AAAAAAFF+qBtyKM79qY=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Main",
-					"defaultDiagram": true
-				},
-				{
 					"_type": "UMLCollaboration",
 					"_id": "AAAAAAF2rdlqD24Qe/8=",
 					"_parent": {
@@ -61,7 +52,7 @@
 														"$ref": "AAAAAAF2rdlqD24T78o="
 													},
 													"font": "Arial;13;0",
-													"left": 75.97900390625,
+													"left": 70.97900390625,
 													"top": 10,
 													"width": 110.10986328125,
 													"height": 13,
@@ -74,7 +65,7 @@
 														"$ref": "AAAAAAF2rdlqD24T78o="
 													},
 													"font": "Arial;13;1",
-													"left": 10,
+													"left": 5,
 													"top": 10,
 													"width": 60.97900390625,
 													"height": 13,
@@ -82,7 +73,6 @@
 												}
 											],
 											"font": "Arial;13;0",
-											"left": 5,
 											"top": 5,
 											"width": 868,
 											"height": 668,
@@ -1241,9 +1231,9 @@
 														"$ref": "AAAAAAF2zXlbBQdWk6U="
 													},
 													"font": "Arial;13;0",
-													"left": 416,
+													"left": 332,
 													"top": 552,
-													"width": 89.603515625,
+													"width": 256.37548828125,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -1251,7 +1241,7 @@
 														"$ref": "AAAAAAF2zXlbBQdXefc="
 													},
 													"edgePosition": 1,
-													"text": "8 : Update view"
+													"text": "8 : Update view, show \"no results found\" info"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -1352,9 +1342,9 @@
 														"$ref": "AAAAAAF2zXfWNwcReBQ="
 													},
 													"font": "Arial;13;0",
-													"left": 416,
+													"left": 376,
 													"top": 440,
-													"width": 89.603515625,
+													"width": 168.35888671875,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -1362,7 +1352,7 @@
 														"$ref": "AAAAAAF2zXfWOgcShYI="
 													},
 													"edgePosition": 1,
-													"text": "6 : Update view"
+													"text": "6 : Update view, show results"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -1658,7 +1648,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF2rdlqD24Rpcw="
 									},
-									"name": "Update view",
+									"name": "Update view, show results",
 									"source": {
 										"$ref": "AAAAAAF2rdlqEG5eFzQ="
 									},
@@ -1686,7 +1676,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF2rdlqD24Rpcw="
 									},
-									"name": "Update view",
+									"name": "Update view, show \"no results found\" info",
 									"source": {
 										"$ref": "AAAAAAF2rdlqEG5eFzQ="
 									},

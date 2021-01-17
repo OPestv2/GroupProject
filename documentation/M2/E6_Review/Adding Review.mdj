@@ -12,15 +12,6 @@
 			"name": "Model",
 			"ownedElements": [
 				{
-					"_type": "UMLClassDiagram",
-					"_id": "AAAAAAFF+qBtyKM79qY=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Main",
-					"defaultDiagram": true
-				},
-				{
 					"_type": "UMLCollaboration",
 					"_id": "AAAAAAF2zYabtphvJsw=",
 					"_parent": {
@@ -897,9 +888,9 @@
 													"font": "Arial;13;0",
 													"left": 167.9599609375,
 													"top": 413,
-													"width": 120.21533203125,
+													"width": 115.87353515625,
 													"height": 13,
-													"text": "permition verification"
+													"text": "permissions verified"
 												},
 												{
 													"_type": "LabelView",
@@ -1253,9 +1244,9 @@
 														"$ref": "AAAAAAF2zY8sMZmlLRk="
 													},
 													"font": "Arial;13;0",
-													"left": 386,
+													"left": 297,
 													"top": 512,
-													"width": 89.603515625,
+													"width": 267.38232421875,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -1263,7 +1254,7 @@
 														"$ref": "AAAAAAF2zY8sMpmmJgY="
 													},
 													"edgePosition": 1,
-													"text": "6 : Update view"
+													"text": "6 : Update view, redirect to added review page"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -1475,9 +1466,9 @@
 														"$ref": "AAAAAAF2zZC+5JnbuHg="
 													},
 													"font": "Arial;13;0",
-													"left": 386,
+													"left": 309,
 													"top": 666,
-													"width": 89.603515625,
+													"width": 243.5341796875,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -1485,7 +1476,7 @@
 														"$ref": "AAAAAAF2zZC+5JncKWg="
 													},
 													"edgePosition": 1,
-													"text": "8 : Update view"
+													"text": "8 : Update view, return to add review page"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -1647,7 +1638,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF2zYabt5hwIT4="
 									},
-									"name": "Update view",
+									"name": "Update view, redirect to added review page",
 									"source": {
 										"$ref": "AAAAAAF2zYdcDZiiDVI="
 									},
@@ -1675,7 +1666,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF2zYabt5hwIT4="
 									},
-									"name": "Update view",
+									"name": "Update view, return to add review page",
 									"source": {
 										"$ref": "AAAAAAF2zYdcDZiiDVI="
 									},
@@ -1741,7 +1732,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF2zYabt5hwIT4="
 									},
-									"name": "permition verification",
+									"name": "permissions verified",
 									"interactionOperator": "seq",
 									"operands": [
 										{
