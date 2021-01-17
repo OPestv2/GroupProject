@@ -72,8 +72,11 @@
 -----------------------
 
 ----- Milestone III -----
-    - Desktop client - application
+    - Website service - class diagrams based on MVC model
 
     - Epics
-        ...
+        - Class diagram - User (bans, notifications, roles, user, ...)
+        - Class diagram - Opinions (opinions, reviews)
+        - Class diagram - Logs (log, log_types)
+        - Class diagram - Multimedia (multimedia, subscriptions, whishlist, favourites, multimedia_type)
 ------------------------

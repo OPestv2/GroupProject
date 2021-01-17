@@ -69,8 +69,11 @@
 ----------------------------
 
 ----- Kamień milowy III -----
-    - Klient desktopowy - aplikacja
+    - Website service - diagramy klas z użyciem modelu MVC
 
-    - Epiki
-		...
+    - Epics
+        - Diagram klas - Użytkownik (blokady, powiadomienia, role, użytkownik, ...)
+        - Diagram klas - Opinie (opinie, recenzje)
+        - Diagram klas - Logi (log, typy_logów)
+        - Diagram klas - Multimedia (multimedia, subskrypcje, lista życzeń, ulubione, typ_multimediów)
 -----------------------------
