@@ -1130,17 +1130,17 @@
 												"$ref": "AAAAAAF2zXRDsh8Vtw0="
 											},
 											"font": "Arial;13;0",
-											"left": 383,
+											"left": 389,
 											"top": 317,
 											"width": 160.4052734375,
 											"height": 13,
-											"alpha": 0.9600710335469431,
-											"distance": 12.206555615733702,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
 											"hostEdge": {
 												"$ref": "AAAAAAF2zXRDsh8WEAU="
 											},
 											"edgePosition": 1,
-											"text": "5 : "
+											"text": "5 : give acces to multimedia"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1353,9 +1353,9 @@
 												"$ref": "AAAAAAF2zXUmDR9CjiM="
 											},
 											"font": "Arial;13;0",
-											"left": 244,
-											"top": 401,
-											"width": 252.90966796875,
+											"left": 260,
+											"top": 408,
+											"width": 220.3779296875,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -1363,7 +1363,7 @@
 												"$ref": "AAAAAAF2zXUmDR9Dul8="
 											},
 											"edgePosition": 1,
-											"text": "7 : Update view, redirect to multimedia page"
+											"text": "7 : Update view, redirect to multimedia"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1377,7 +1377,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 370,
-											"top": 386,
+											"top": 393,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 25,
@@ -1398,7 +1398,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 370,
-											"top": 421,
+											"top": 428,
 											"height": 13,
 											"alpha": -1.5707963267948966,
 											"distance": 10,
@@ -1418,7 +1418,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 461,
-											"top": 417,
+											"top": 424,
 											"width": 14,
 											"height": 29
 										}
@@ -1430,7 +1430,7 @@
 									"tail": {
 										"$ref": "AAAAAAF2zNAiTIFpe+s="
 									},
-									"points": "279:417;461:417",
+									"points": "279:424;461:424",
 									"nameLabel": {
 										"$ref": "AAAAAAF2zXUmDh9EHqA="
 									},
@@ -1733,6 +1733,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF2zM8cZYExnkw="
 							},
+							"name": "give acces to multimedia",
 							"source": {
 								"$ref": "AAAAAAF2zNBcQ4GiLhg="
 							},
@@ -1761,7 +1762,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF2zM8cZYExnkw="
 							},
-							"name": "Update view, redirect to multimedia page",
+							"name": "Update view, redirect to multimedia",
 							"source": {
 								"$ref": "AAAAAAF2zNAiS4Fi5JU="
 							},
