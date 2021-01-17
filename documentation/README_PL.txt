@@ -10,11 +10,11 @@
 
 
 ----- Ogólny opis projektu -----
-    Book4You to najlepsza internetowa wypożyczalnia multimediów online. PDFy, filmy, muzyka. Wiele różnych gatunków i tematów.
+    Book4You to najlepsza internetowa wypożyczalnia multimediów online. Wiele różnych gatunków i tematów.
 --------------------------------
 
 ----- Motywacja i cel -----
-    Strona ma ułatwić dostęp do wiedzy i rozrywki nieograniczonej ilością egzemplarzy lub koniecznością odwiedzenia stacjonarnej placówki. Dzięki cyfrowej wersji, nie trzeba się martwić o jej zgubienie lub zniszczenie. Dodatkowo komfort użytkowania zawsze jest tak wysoki jakby egzemplarz był pierwszy raz używany. Dzięki klientowi, który jest dostępny na systemy W/L/M, możesz korzystać z wypożyczonych rzeczy w dowolnym miejscu i czasie.
+    Strona ma ułatwić dostęp do wiedzy i rozrywki nieograniczonej ilością egzemplarzy lub koniecznością odwiedzenia stacjonarnej placówki. Dzięki cyfrowej wersji, nie trzeba się martwić o jej zgubienie lub zniszczenie. Dodatkowo komfort użytkowania zawsze jest tak wysoki jakby egzemplarz był pierwszy raz używany. Dzięki naszej strone możesz korzystać z wypożyczonych plików w dowolnym miejscu i czasie.
 ---------------------------
 
 ----- Kamienie milowe, epiki, zadania/historyjki, podzadania -----
