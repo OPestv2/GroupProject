@@ -9,26 +9,26 @@
 ############################################################################
 
 
------ Ogólny opis projektu -----
+----- OGÓLNY OPIS PROJEKTU -----
     Book4You to najlepsza internetowa wypożyczalnia multimediów online. PDFy, filmy, muzyka. Wiele różnych gatunków i tematów.
 --------------------------------
 
------ Motywacja i cel -----
+----- MOTYWACJA I CEL -----
     Strona ma ułatwić dostęp do wiedzy i rozrywki nieograniczonej ilością egzemplarzy lub koniecznością odwiedzenia stacjonarnej placówki. Dzięki cyfrowej wersji, nie trzeba się martwić o jej zgubienie lub zniszczenie. Dodatkowo komfort użytkowania zawsze jest tak wysoki jakby egzemplarz był pierwszy raz używany. Dzięki klientowi, który jest dostępny na systemy W/L/M, możesz korzystać z wypożyczonych rzeczy w dowolnym miejscu i czasie.
 ---------------------------
 
------ Kamienie milowe, epiki, zadania/historyjki, podzadania -----
+----- KAMIENIE MILOWE, EPIKI, ZADANIA/HISTORYJKI, PODZADANIA -----
     - System kont (rejestracja, logowanie, obsługa konta)
     - Klient internetowy (wypożyczanie, ocenianie, komentowanie, polecanie), klient desktopowy
 
 
------ Infrastruktura sprzętowa / technologie -----
+----- INFRASTRUKTURA SPRZĘTOWA / TECHNOLOGIE -----
     - Windows / Linux / Mac / Mobile (responsywność) -> strona internetowa
     - Windows / Linux / Mac -> aplikacja desktopowa
 --------------------------------------------------
 
 
------ Wykorzystane środowiska -----
+----- WYKORZYSTANIE ŚRODOWISKA -----
     - GitHub
     - Jira
     - StarUML

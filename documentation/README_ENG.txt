@@ -19,19 +19,20 @@
 -------------------------------
 
 
------ Milestones, epics, tasks/stories, subtasks -----
+----- MILESTONES, EPICS, TASKS/STORIES, SUBTASKS -----
     - Account system (registration, logging, account service)
     - Internet client (renting, rating, commenting, recommending), desktop client
 ------------------------------------------------------
 
 
 ----- Hardware infrastructure / technologies -----
+----- HARDWARE INFRASTRUCTURE / TECHNOLOGIES -----
     - Windows / Linux / Mac / Mobile (responsivity) -> Internet website
     - Windows / Linux / Mac -> desktop app
 --------------------------------------------------
 
 
------ Used environments -----
+----- USED ENVIRONMENTS -----
     - GitHub
     - Jira
     - StarUML
