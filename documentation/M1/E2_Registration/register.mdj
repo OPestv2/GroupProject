@@ -1809,9 +1809,9 @@
 												"$ref": "AAAAAAF2zNqauIMI/hg="
 											},
 											"font": "Arial;13;0",
-											"left": 317,
+											"left": 254,
 											"top": 592,
-											"width": 97,
+											"width": 223.78662109375,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -1819,7 +1819,7 @@
 												"$ref": "AAAAAAF2zNqauIMJKns="
 											},
 											"edgePosition": 1,
-											"text": "11 : Update view"
+											"text": "11 : Update view, redirect to login page"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2031,9 +2031,9 @@
 												"$ref": "AAAAAAF2zNuUGIM3Irw="
 											},
 											"font": "Arial;13;0",
-											"left": 314,
+											"left": 242,
 											"top": 704,
-											"width": 97,
+											"width": 240.63330078125,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -2041,7 +2041,7 @@
 												"$ref": "AAAAAAF2zNuUGIM4h/M="
 											},
 											"edgePosition": 1,
-											"text": "13 : Update view"
+											"text": "13 : Update view, redirect to register page"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2274,7 +2274,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF2zM8cZYExnkw="
 							},
-							"name": "Update view",
+							"name": "Update view, redirect to login page",
 							"source": {
 								"$ref": "AAAAAAF2zNAiS4Fi5JU="
 							},
@@ -2302,7 +2302,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF2zM8cZYExnkw="
 							},
-							"name": "Update view",
+							"name": "Update view, redirect to register page",
 							"source": {
 								"$ref": "AAAAAAF2zNAiS4Fi5JU="
 							},

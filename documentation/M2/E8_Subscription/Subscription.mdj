@@ -12,15 +12,6 @@
 			"name": "Model",
 			"ownedElements": [
 				{
-					"_type": "UMLClassDiagram",
-					"_id": "AAAAAAFF+qBtyKM79qY=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Main",
-					"defaultDiagram": true
-				},
-				{
 					"_type": "UMLCollaboration",
 					"_id": "AAAAAAF20vwiekzZT9k=",
 					"_parent": {
@@ -1370,9 +1361,9 @@
 														"$ref": "AAAAAAF20wrdlE39yUA="
 													},
 													"font": "Arial;13;0",
-													"left": 391,
+													"left": 289,
 													"top": 424,
-													"width": 87.4453125,
+													"width": 291.23681640625,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -1380,7 +1371,7 @@
 														"$ref": "AAAAAAF20wrdlE3+fZQ="
 													},
 													"edgePosition": 1,
-													"text": "7 : update view"
+													"text": "7 : update view, redirect to subscribed author page"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -1592,9 +1583,9 @@
 														"$ref": "AAAAAAF20wui6k4s/7g="
 													},
 													"font": "Arial;13;0",
-													"left": 391,
+													"left": 317,
 													"top": 560,
-													"width": 87.4453125,
+													"width": 234.14599609375,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -1602,7 +1593,7 @@
 														"$ref": "AAAAAAF20wui604tyRg="
 													},
 													"edgePosition": 1,
-													"text": "9 : update view"
+													"text": "9 : update view, return to subscribe page"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -1778,7 +1769,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF20vwiekzaNIs="
 									},
-									"name": "update view",
+									"name": "update view, redirect to subscribed author page",
 									"source": {
 										"$ref": "AAAAAAF20v00hU0OF2w="
 									},
@@ -1806,7 +1797,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF20vwiekzaNIs="
 									},
-									"name": "update view",
+									"name": "update view, return to subscribe page",
 									"source": {
 										"$ref": "AAAAAAF20v00hU0OF2w="
 									},

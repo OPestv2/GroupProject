@@ -4,25 +4,6 @@
 	"name": "Untitled",
 	"ownedElements": [
 		{
-			"_type": "UMLModel",
-			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
-			"_parent": {
-				"$ref": "AAAAAAFF+h6SjaM2Hec="
-			},
-			"name": "Model",
-			"ownedElements": [
-				{
-					"_type": "UMLClassDiagram",
-					"_id": "AAAAAAFF+qBtyKM79qY=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "Main",
-					"defaultDiagram": true
-				}
-			]
-		},
-		{
 			"_type": "UMLCollaboration",
 			"_id": "AAAAAAF204RTF4zcqNI=",
 			"_parent": {
@@ -913,9 +894,9 @@
 												"$ref": "AAAAAAF204ZRQ421pjU="
 											},
 											"font": "Arial;13;0",
-											"left": 223,
+											"left": 160,
 											"top": 224,
-											"width": 89.603515625,
+											"width": 214.6015625,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -923,7 +904,7 @@
 												"$ref": "AAAAAAF204ZRQ422+wU="
 											},
 											"edgePosition": 1,
-											"text": "4 : Update view"
+											"text": "4 : Update view, show estimated time"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1057,7 +1038,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF204RTGIzdLGE="
 							},
-							"name": "Update view",
+							"name": "Update view, show estimated time",
 							"source": {
 								"$ref": "AAAAAAF204Rk240LGB4="
 							},
