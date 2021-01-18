@@ -1,0 +1,44 @@
+Przypadek 1a - Weryfikacja działania procedury aktywacji konta w przypadku nieaktywowanego konta zalogowanego użytkownika.
+	Wykonanie: Manualne.
+	Priorytet: Wysoki.
+
+	Założenia:
+		- Użytkownik jest zalogowany.
+
+	Kroki:
+		1. Użytkownik używa linku do aktywacji konta.
+
+	Oczekiwany rezultat:
+		- Konto użytkownika zostaje aktywowane.
+        - Wyświetlony zostaje komunikat o poprawnej aktywacji konta.
+
+----------------------------------------------------------------------------------------------------
+
+Przypadek 1b - Weryfikacja działania procedury aktywacji konta w przypadku aktywowanego konta zalogowane użytkownika.
+	Wykonanie: Manualne.
+	Priorytet: Wysoki.
+
+	Założenia:
+		- Użytkownik jest zalogowany.
+
+	Kroki:
+		1. Użytkownik używa linku do aktywacji konta.
+
+	Oczekiwany rezultat:
+        - Wyświetlony zostaje komunikat o wygaśnięciu linku do aktywacji konta.
+
+
+----------------------------------------------------------------------------------------------------
+
+Przypadek 2 - Próba aktywacji konta niezalogowanego użytkownika.
+	Wykonanie: Manualne.
+	Priorytet: Wysoki.
+
+	Założenia:
+		- Użytkownik nie jest zalogowany.
+
+	Kroki:
+		1. Użytkownik używa linku do aktywacji konta.
+
+	Oczekiwany rezultat:
+        - Użytkownik zostaje przeniesiony na stronę logowania.
