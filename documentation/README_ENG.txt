@@ -69,6 +69,7 @@
         9.  Estimated reading time
         10. Buttons
         11. E-mail activation
+		12. Rented books
 -----------------------
 
 ----- Milestone III -----

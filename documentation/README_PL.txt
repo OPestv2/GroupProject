@@ -76,6 +76,7 @@
         9.  Przewidywany czas czytania
         10. Przyciski
         11. Aktywacja e-maila
+		12. Wypożyczone książki
 ----------------------------
 
 ----- Kamień milowy III -----
