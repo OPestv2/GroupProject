@@ -1803,9 +1803,9 @@
 												"$ref": "AAAAAAF2zLg0aMio8uM="
 											},
 											"font": "Arial;13;0",
-											"left": 382,
+											"left": 307,
 											"top": 712,
-											"width": 96.83349609375,
+											"width": 247.86962890625,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -1813,7 +1813,7 @@
 												"$ref": "AAAAAAF2zLg0aMipJsA="
 											},
 											"edgePosition": 1,
-											"text": "10 : Update view"
+											"text": "10 : Update view and redirect to main page"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2025,9 +2025,9 @@
 												"$ref": "AAAAAAF2zLnCmsja6Xk="
 											},
 											"font": "Arial;13;0",
-											"left": 382,
+											"left": 359,
 											"top": 832,
-											"width": 96.83349609375,
+											"width": 142.3779296875,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -2035,7 +2035,7 @@
 												"$ref": "AAAAAAF2zLnCmsjbHSE="
 											},
 											"edgePosition": 1,
-											"text": "12 : Update view"
+											"text": "12 : Return to login page"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2254,7 +2254,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF2zKScGcYyBPY="
 							},
-							"name": "Update view",
+							"name": "Update view and redirect to main page",
 							"source": {
 								"$ref": "AAAAAAF2zKUEE8ZjC8o="
 							},
@@ -2282,7 +2282,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF2zKScGcYyBPY="
 							},
-							"name": "Update view",
+							"name": "Return to login page",
 							"source": {
 								"$ref": "AAAAAAF2zKUEE8ZjC8o="
 							},

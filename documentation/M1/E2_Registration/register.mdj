@@ -25,7 +25,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF2zM8cZYExnkw="
 							},
-							"name": "diagram sekwencji",
+							"name": "Register",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -46,9 +46,9 @@
 											"font": "Arial;13;0",
 											"left": 86.97900390625,
 											"top": 13,
-											"width": 107.9326171875,
+											"width": 49.4072265625,
 											"height": 13,
-											"text": "diagram sekwencji"
+											"text": "Register"
 										},
 										{
 											"_type": "LabelView",
@@ -760,8 +760,8 @@
 										"$ref": "AAAAAAF2zM8cZYEyFMY="
 									},
 									"font": "Arial;13;0",
-									"left": 376,
-									"top": 192,
+									"left": 320,
+									"top": 184,
 									"width": 112,
 									"height": 25,
 									"text": "Validation"
