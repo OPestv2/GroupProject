@@ -26,9 +26,8 @@
 ---------------------------
 
 ----- Kamienie milowe, epiki, zadania/historyjki, podzadania -----
->>>>>>> c0bd690c3c455487bdc9b819cee48983e8eb00f8
     - System kont (rejestracja, logowanie, obsługa konta)
-    - Klient internetowy (wypożyczanie, ocenianie, komentowanie, polecanie), klient desktopowy
+    - Klient internetowy (wypożyczanie, ocenianie, komentowanie, polecanie)
 ------------------------------------------------------------------
 
 
@@ -54,15 +53,15 @@
 ----- Kamień milowy I -----
     - System kont
 
-    - Epics
-        1. Logowanie
-        2. Rejestracja
-        3. Odzyskiwanie hasła
-        4. Zmiana ustawień użytkownika
+    - Epiki
+        1.  Logowanie
+        2.  Rejestracja
+        3.  Odzyskiwanie hasła
+        4.  Zmiana ustawień użytkownika
 ---------------------------
 
 ----- Kamień milowy II -----
-	klient internetowy - strona internetowa
+	- Dodawanie plików i ocenianie
 
     - Epiki
         1.  Dodawanie plików
@@ -71,20 +70,16 @@
         4.  Dodawanie opinii
         5.  Ranking
         6.  Recenzje
-        7.  Historia
-        8.  Subscripcje
-        9.  Przewidywany czas czytania
-        10. Przyciski
-        11. Aktywacja e-maila
-		12. Wypożyczone książki
 ----------------------------
 
 ----- Kamień milowy III -----
-    - Serwis internetowy - diagramy klas przy użyciu modelu MVC
+    - Subskrypcje, aktywacja emaila, historia
 
-    - Epics
-        1. Diagram klas - Użytkownik (blokady, powiadomienia, role, użytkownik, ...)
-        2. Diagram klas - Opinie (opinie, recenzje)
-        3. Diagram klas - Logi (log, typy_logów)
-        4. Diagram klas - Multimedia (multimedia, subskrypcje, lista życzeń, ulubione, typ_multimediów)
+    - Epiki
+        1.  Historia
+        2.  Subscripcje
+        3.  Przewidywany czas czytania
+        4.  Przyciski
+        5.  Aktywacja e-maila
+        6.  Wypożyczone książki
 -----------------------------

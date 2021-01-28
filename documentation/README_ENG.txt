@@ -21,7 +21,7 @@
 
 ----- MILESTONES, EPICS, TASKS/STORIES, SUBTASKS -----
     - Account system (registration, logging, account service)
-    - Internet client (renting, rating, commenting, recommending), desktop client
+    - Internet client (renting, rating, commenting, recommending)
 ------------------------------------------------------
 
 
@@ -48,14 +48,14 @@
     - Account system
 
     - Epics
-        1. Logging
-        2. Registration
-        3. Password recovery
-        4. Change user settings
+        1.  Logging
+        2.  Registration
+        3.  Password recovery
+        4.  Change user settings
 ----------------------
 
 ----- Milestone II -----
-    - Internet client - web service
+    - Adding and rating multimedia
 
     - Epics
         1.  File adding
@@ -64,20 +64,16 @@
         4.  Opinion adding
         5.  Ranking
         6.  Reviews
-        7.  History
-        8.  Subscriptions
-        9.  Estimated reading time
-        10. Buttons
-        11. E-mail activation
-		12. Rented books
 -----------------------
 
 ----- Milestone III -----
-    - Website service - class diagrams based on MVC model
+    - Subs, mail activation, history
 
     - Epics
-        1. Class diagram - User (bans, notifications, roles, user, ...)
-        2. Class diagram - Opinions (opinions, reviews)
-        3. Class diagram - Logs (log, log_types)
-        4. Class diagram - Multimedia (multimedia, subscriptions, whishlist, favourites, multimedia_type)
+        1.  History
+        2.  Subscriptions
+        3.  Estimated reading time
+        4. Buttons
+        5. E-mail activation
+        6. Rented books
 ------------------------
