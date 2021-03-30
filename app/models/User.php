@@ -21,7 +21,7 @@
 		}
 		
 		//sprawdzanie czy użytkownik istnieje
-		public function userexist(){
+		public function userexist($login){
 			
 		}
 		
