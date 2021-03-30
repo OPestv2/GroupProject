@@ -1,6 +1,6 @@
 <?php
 
-	class User{
+	class Multimedia{
 		private $db;
 		
 		public function __construct(){
@@ -10,7 +10,7 @@
 		//logowanie
 		public function numberOfMultimedia(){
 			$this->db->query("SELECT COUNT(multimedia_id) FROM Multimedia"); 		//przypisanie zapytania
-			$multimedia = $this->db->single();											//wywołanie zapytania
+			$multimedia = $this->db->single();										//wywołanie zapytania
 			
 			return $multimedia;													
 			
