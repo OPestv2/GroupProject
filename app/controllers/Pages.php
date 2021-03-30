@@ -1,16 +1,11 @@
 <?php
     class Pages extends Controller{
         public function __construct(){
-            
+            $this->userModel = $this->model('User');
+            $this->multimediaModel = $this->model('Multimedia');
         }
 
-        public function index(){
-            $data = [
-                'title' => 'TraversyMVC'
-            ];
-
-            $this->view('pages/index', $data);
-        }
+        public function index(){}
 
         public function about(){
             $data = [
@@ -18,6 +13,20 @@
             ];
 
             $this->view('pages/about', $data);
+        }
+
+        public function main(){
+        	//pobranie ilosci Multimedia z bazy danych
+        	$numberOfMultimedia = $this->multimediaModel->numberOfMultimedia();
+
+        	
+        	
+            $data = [
+                'title' => 'About Us',
+                'numberOfMultimedia' => $numberOfMultimedia
+            ];
+
+            $this->view('pages/main', $data);
         }
     }
 ?>
