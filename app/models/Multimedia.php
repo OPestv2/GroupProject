@@ -13,12 +13,6 @@
 			$multimedia = $this->db->single();										//wywołanie zapytania
 			
 			return $multimedia;													
-			
 		}
-		
-	
 	}
-
-
 ?>
-
