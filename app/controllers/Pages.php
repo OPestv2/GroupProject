@@ -5,7 +5,9 @@
             $this->multimediaModel = $this->model('Multimedia');
         }
 
+
         public function index(){}
+
 
         public function about(){
             $data = [
@@ -19,7 +21,6 @@
         	//pobranie ilosci Multimedia z bazy danych
         	$numberOfMultimedia = $this->multimediaModel->numberOfMultimedia();
 
-        	
         	
             $data = [
                 'title' => 'About Us',
