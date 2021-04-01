@@ -17,7 +17,8 @@
 
         public function main(){
         	//pobranie ilosci Multimedia z bazy danych
-        	$numberOfMultimedia = $this->multimediaModel->numberOfMultimedia();
+        	//$numberOfMultimedia = $this->multimediaModel->numberOfMultimedia();
+			$numberOfMultimedia = 10;
 
         	
         	
