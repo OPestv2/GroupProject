@@ -27,28 +27,25 @@
 			$this->db->bind(':email', $email);
 			$user = $this->db->single();
 			
-			if($user != NULL){
-				return false;
-			}else{
-				return true;
-			}
+			if($this->db->rowCount()>0) return true;
+			
+			return false;
+			
 		}
 		
 		//rejestracja
-		public function register($login, $email, $password_hash, $first_name, $last_name, $phone_number, $birth_date){
-			if(!userexist($login, $email)){
-				$this->db->query('INSERT INTO Users (password_hash, login, email, first_name, last_name, phone_number, birth_date) VALUES (:password_hash, :login, :email, :first_name, :last_name, :phone_number, :birth_date)');
-				$this->db->bind(':login', $login);
-				$this->db->bind(':email', $email);
-				$this->db->bind(':password_hash', $password_hash);
-				$this->db->bind(':first_name', $first_name);
-				$this->db->bind(':last_name', $last_name);
-				$this->db->bind(':phone_number', $phone_number);
-				$this->db->bind(':birth_date', $birth_date);
-				$register = $this->db->single();
-			}else{
-				return false;
-			}
+		public function register($login, $email, $password_hash){
+		
+			$this->db->query('INSERT INTO Users (password_hash, login, email) VALUES (:password_hash, :login, :email, :first_name, :last_name, :phone_number, :birth_date)');
+			$this->db->bind(':login', $login);
+			$this->db->bind(':email', $email);
+			$this->db->bind(':password_hash', $password_hash);
+			$this->db->bind(':first_name', $first_name);
+			$this->db->bind(':last_name', $last_name);
+			$this->db->bind(':phone_number', $phone_number);
+			$this->db->bind(':birth_date', $birth_date);
+			if($this->db->execute())return true;
+			return false;
 		}
 		
 	//	//odzyskanie hasła
@@ -57,19 +54,24 @@
 	//	}
 		
 		//zmiana nicku
-		public function changenickname($oldnickname, $newnickname){
-			$this->db->query('UPDATE Users SET login = :newnickname WHERE login = :oldnickname');
-			$this->db->bind(':oldnickname', $oldnickname);
+		public function changenickname($newnickname){
+			$this->db->query('UPDATE Users SET login = :newnickname WHERE user_id = :id');
+			$this->db->bind(':id', $_SESSION['user_id']);
 			$this->db->bind(':newnickname', $newnickname);
+			if($this->db->execute())return true;
+			return false;
+			
 		}
 
 		
 		//zmiana hasła
-		public function changepassword($newpasswordhash, $login){
-			$this->db->query('UPDATE Users SET password_hash = :newpasswordhash WHERE login = :login');
-			$this->db->bind(':login', $login);
-			$this->db->bind(':newpasswordhash', $newpasswordhash);
-		}
+	//	public function changepassword($newpasswordhash, $oldpassword){
+	//		$this->db->query('UPDATE Users SET password_hash = :newpasswordhash WHERE user_id = :id');
+	//		$this->db->bind(':id', $_SESSION['user_id']);
+	//		$this->db->bind(':newpasswordhash', $newpasswordhash);
+	//		if($this->db->execute())return true;
+	//		return false;
+	//	}
 	}
 
 
