@@ -8,20 +8,18 @@
 		}
 		
 		//logowanie
-		public function login($login, $password){
-			$this->db->query('SELECT * FROM Users WHERE login = :login'); 		//przypisanie zapytania
-			$this->db->bind(':login', $login);									//dodanie zmiennej do zapytania
+		public function login($email, $password){
+			$this->db->query('SELECT * FROM Users WHERE email = :email'); 		//przypisanie zapytania
+			$this->db->bind(':email', $email);									//dodanie zmiennej do zapytania
 			$user = $this->db->single();										//wywołanie zapytania
 			
-			if(password_verify($password, $user->password)){					//sprawdzenie czy hasło jest zgodne
+			if(password_verify($password, $user->password))						//sprawdzenie czy hasło jest zgodne
 				return $user;													//jeżeli tak, zwrócenie danych użytkownika
-			}else{
-				return false;													//jeżeli nie, zwraca fałsz 
-			}
+			return false;
 		}
 		
 		//sprawdzanie czy użytkownik istnieje
-		public function userexist($login, $email){
+		public function userExist($login, $email){
 			$this->db->query('SELECT login, email FROM Users WHERE login = :login OR email = :email');
 			$this->db->bind(':login', $login);
 			$this->db->bind(':email', $email);
@@ -63,15 +61,14 @@
 			
 		}
 
-		
-		//zmiana hasła
-	//	public function changepassword($newpasswordhash, $oldpassword){
-	//		$this->db->query('UPDATE Users SET password_hash = :newpasswordhash WHERE user_id = :id');
-	//		$this->db->bind(':id', $_SESSION['user_id']);
-	//		$this->db->bind(':newpasswordhash', $newpasswordhash);
-	//		if($this->db->execute())return true;
-	//		return false;
-	//	}
+		// zmiana hasła
+		public function changepassword($newpasswordhash, $oldpassword){
+			$this->db->query('UPDATE Users SET password_hash = :newpasswordhash WHERE user_id = :id');
+			$this->db->bind(':id', $_SESSION['user_id']);
+			$this->db->bind(':newpasswordhash', $newpasswordhash);
+			if($this->db->execute())return true;
+			return false;
+		}
 	}
 
 
