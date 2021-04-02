@@ -19,16 +19,14 @@
 		}
 		
 		//sprawdzanie czy użytkownik istnieje
-		public function userExist($login, $email){
-			$this->db->query('SELECT login, email FROM Users WHERE login = :login OR email = :email');
+		public function userExists($login){
+			$this->db->query('SELECT login, email FROM Users WHERE login = :login OR email = :login');
 			$this->db->bind(':login', $login);
-			$this->db->bind(':email', $email);
+			$this->db->bind(':email', $login);
 			$user = $this->db->single();
 			
 			if($this->db->rowCount()>0) return true;
-			
 			return false;
-			
 		}
 		
 		//rejestracja
