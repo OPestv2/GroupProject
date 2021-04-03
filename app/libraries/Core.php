@@ -5,13 +5,10 @@
      * URL FORMAT - /controller/method/params
      * 
      */
-
-    // Disable error reporting
-    //error_reporting(0);
      
     class Core{
         protected $currentController = 'Pages';
-        protected $currentMethod = 'index';
+        protected $currentMethod = 'main';
         protected $params = [];
 
         public function __construct(){

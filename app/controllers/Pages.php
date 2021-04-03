@@ -21,7 +21,6 @@
         	//pobranie ilosci Multimedia z bazy danych
         	$numberOfMultimedia = $this->multimediaModel->numberOfMultimedia();
 
-        	
             $data = [
                 'title' => 'About Us',
                 'numberOfMultimedia' => $numberOfMultimedia
