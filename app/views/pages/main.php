@@ -1,7 +1,7 @@
 <?php require APPROOT . '/views/inc/header.php'; ?>
 <div class="d-flex flex-row h-100">
 <?php require APPROOT . '/views/inc/navbar.php'; ?>
-    <div class="overflow-scroll">
+    <div class="overflow-scroll w-100">
         <div class="overflow-hidden text-center bg-light">
             <div class="col-md-5 p-lg-5 mx-auto my-5">
                 <h1 class="display-4 fw-normal">Punny headline</h1>
