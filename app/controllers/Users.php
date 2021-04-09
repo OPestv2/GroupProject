@@ -211,7 +211,7 @@
 
 				// Make sure errors are empty
 				if(empty($data['login_err'])){
-					$user->nick = $data['login']
+					$user->nick = $data['login'];
 					$this->view('users/settings', $data);
 				}
 				else {
@@ -249,7 +249,7 @@
 
 				// Make sure errors are empty
 				if(empty($data['email_err'])){
-					$user->email = $data['email']
+					$user->email = $data['email'];
 					$this->view('users/settings', $data);
 				}
 				else {

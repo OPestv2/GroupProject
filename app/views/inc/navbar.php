@@ -6,8 +6,8 @@
                 </form>
 
                 <div class="text-end">
-                    <button type="button" class="btn btn-primary me-2">Zaloguj</button>
-                    <button type="button" class="btn btn-outline-secondary">Zarejestruj</button>
+                    <a href="<?php echo URLROOT; ?>/users/login" class="btn btn-primary me-2">Zaloguj</a>
+                    <a href="<?php echo URLROOT; ?>/users/register" class="btn btn-outline-secondary">Zarejestruj</a>
                 </div>
             </div>
         </div>
