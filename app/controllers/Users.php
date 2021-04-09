@@ -1,5 +1,5 @@
 <?php
-    class Pages extends Controller{
+    class Users extends Controller{
         public function __construct(){
             $this->userModel = $this->model('User');
         }
@@ -153,7 +153,10 @@
 				// Init data
 				$data = [
 					'password' => '',
-					'password_err' => ''
+					'email' => '',
+					
+					'password_err' => '',
+					'email_err' => ''
 				];
 
 				// Load view
@@ -173,7 +176,133 @@
 			session_start();
 			flash('logout_success','Zostałeś pomyślnie wylogowany!', 'alert alert-info');
 			redirect('users/login');
-		}  
-    }
+		}
 
+		
+		public function changeNick($user){
+			
+			echo($user);
+			echo("aaaaa");
+			die();
+			
+			
+			
+			// Check for POST
+            if($_SERVER['REQUEST_METHOD'] == 'POST'){
+				// Process form
+				
+				// Sanitize POST data
+				$_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
+
+				// Init data
+				$data = [
+					'login' => trim($_POST['login']),
+					'login_err' => ''
+				];
+
+				// Validate Login
+				if(empty($data['login'])){
+					$data['login_err'] = "Proszę wpisać login";
+				}
+				// tutaj pobranie twojego starego
+				else if($data['login'] == $user->nick){
+					$data['login_err'] = 'Nowy login musi być różny od twojego starego';
+				}
+
+				// Make sure errors are empty
+				if(empty($data['login_err'])){
+					$user->nick = $data['login']
+					$this->view('users/settings', $data);
+				}
+				else {
+					// Load view with errors
+					$this->view('users/settings', $data);
+				}
+			}
+		}
+
+
+		public function changeEmail($user){
+			// Check for POST
+            if($_SERVER['REQUEST_METHOD'] == 'POST'){
+				// Process form
+				
+				// Sanitize POST data
+				$_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
+
+				// Init data
+				$data = [
+					'email' => trim($_POST['email']),
+					'email_err' => ''
+				];
+
+				// Validate e-mail
+				if(empty($data['email'])){
+					$data['email_err'] = 'Wprowadź adres e-mail';
+				}
+				else if(!filter_var($data['email'], FILTER_VALIDATE_EMAIL)){
+					$data['email_err'] = 'Niepoprawny adres e-mail';
+				}
+				else if($this->db->userExists($data['email'])){
+					$data['email_err'] = 'Podany adres e-mail już istnieje';
+				}
+
+				// Make sure errors are empty
+				if(empty($data['email_err'])){
+					$user->email = $data['email']
+					$this->view('users/settings', $data);
+				}
+				else {
+					// Load view with errors
+					$this->view('users/settings', $data);
+				}
+			}
+		}
+		
+		
+		public function changePassword($user){
+			// Check for POST
+            if($_SERVER['REQUEST_METHOD'] == 'POST'){
+				// Process form
+				
+				// Sanitize POST data
+				$_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
+
+				// Init data
+				$data = [
+					'password' => trim($_POST['password']),
+					'confirm_password' => trim($_POST['confirm_password']),
+					
+					'password_err' => '',
+                    'confirm_password_err' => ''
+				];
+
+                // Validate Password
+                if(empty($data['password'])){
+                    $data['password_err'] = "Wprowadź hasło";
+                } else if(strlen($data['password']) < 8){
+                    $data['password_err'] = "Hasło musi zawierać przynajmniej 8 znaków";
+                } else if(password_hash($data['password'], PASSWORD_DEFAULT) == $user->password){
+					$data['password_err'] = 'Nowe hasło musi być różne od twojego starego';
+				}
+
+                // Validate Confirm Password
+                if(empty($data['confirm_password'])){
+                    $data['confirm_password_err'] = "Potwierdź hasło";
+                } else if($data['password'] != $data['confirm_password']){
+                    $data['confirm_password_err'] = "Podane hasła są różne";
+                }
+
+				// Make sure errors are empty
+				if(empty($data['password_err']) && empty($data['confirm_password_err'])){
+					$user->password = password_hash($data['password'], PASSWORD_DEFAULT);
+					$this->view('users/settings', $data);
+				}
+				else {
+					// Load view with errors
+					$this->view('users/settings', $data);
+				}
+			}
+		}
+	}
 ?>
