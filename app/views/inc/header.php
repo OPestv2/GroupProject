@@ -17,4 +17,4 @@
 
 	<title><?php echo SITENAME; ?></title>
 </head>
-<body class="overflow-hidden">
+<body class="overflow-hidden d-flex flex-row h-100">
