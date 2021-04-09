@@ -25,10 +25,10 @@
                 'books' => $this->multimediaModel->getMultimedia('2')
             ];
 
-            echo('<pre>');
- 			print_r($data["books"]);
- 			echo('</pre>');
- 			die();
+    //         echo('<pre>');
+ 			// print_r($data["books"]);
+ 			// echo('</pre>');
+ 			// die();
 
             $this->view('pages/main', $data);
         }

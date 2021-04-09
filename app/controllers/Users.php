@@ -94,6 +94,7 @@
         }
 
 		public function login(){
+			session_destroy();
 			if(isLoggedIn()){
 				redirect('pages/index');
 			}

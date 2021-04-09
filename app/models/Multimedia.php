@@ -17,7 +17,7 @@
 		
 		//pobieranie multimediow
 		public function getMultimedia($typ){
-			$this->db->query("SELECT * FROM Multimedia WHERE type = :typ "); 	
+			$this->db->query("SELECT * FROM Multimedia WHERE type = :typ"); 	
 			$this->db->bind(':typ', $typ);
 			$multimedia = $this->db->resultSet();
 

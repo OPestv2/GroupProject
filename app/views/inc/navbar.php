@@ -6,8 +6,12 @@
                 </form>
 
                 <div class="text-end">
-                    <a href="<?php echo URLROOT; ?>/users/login" class="btn btn-primary me-2">Zaloguj</a>
-                    <a href="<?php echo URLROOT; ?>/users/register" class="btn btn-outline-secondary">Zarejestruj</a>
+                    <?php if(!isLoggedIn()): ?>
+                        <a href="<?php echo URLROOT; ?>/users/login" class="btn btn-primary me-2">Zaloguj</a>
+                        <a href="<?php echo URLROOT; ?>/users/register" class="btn btn-outline-secondary">Zarejestruj</a>
+                    <?php else: ?>
+                        <a href="<?php echo URLROOT; ?>/users/logout" class="btn btn-primary me-2">Wyloguj</a>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
