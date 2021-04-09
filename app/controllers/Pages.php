@@ -19,11 +19,16 @@
 
         public function main(){
         	//pobranie ilosci Multimedia z bazy danych
-        	$numberOfMultimedia = $this->multimediaModel->numberOfMultimedia();
             $data = [
                 'title' => 'About Us',
-                'numberOfMultimedia' => $numberOfMultimedia->multimedia_count
+                'numberOfMultimedia' => $this->multimediaModel->numberOfMultimedia()->multimedia_count,
+                'books' => $this->multimediaModel->getMultimedia('2')
             ];
+
+            echo('<pre>');
+ 			print_r($data["books"]);
+ 			echo('</pre>');
+ 			die();
 
             $this->view('pages/main', $data);
         }

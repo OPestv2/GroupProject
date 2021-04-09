@@ -15,20 +15,10 @@
 			return $multimedia;													
 		}
 		
-		//pobieranie ksiazek
-		public function getBooks(){
-			$this->db->query("SELECT * FROM Multimedia WHERE type = '2' "); 			
-			$multimedia = $this->db->resultSet();
-
-            if($this->db->rowCount() > 0){
-                return $multimedia;
-            }
-            return false;
-        }
-		
-		//pobieranie filmow
-		public function getVideos(){
-			$this->db->query("SELECT * FROM Multimedia WHERE type = '1' "); 		
+		//pobieranie multimediow
+		public function getMultimedia($typ){
+			$this->db->query("SELECT * FROM Multimedia WHERE type = :typ "); 	
+			$this->db->bind(':typ', $typ);
 			$multimedia = $this->db->resultSet();
 
             if($this->db->rowCount() > 0){
