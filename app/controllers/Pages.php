@@ -17,16 +17,24 @@
             $this->view('pages/about', $data);
         }
 		
-		public function getBooks(){
-               $notes = $this->multimediaModel->getNotes();
+		public function multimedia($typ){
+               $notes = $this->multimediaModel->getMultimedia($typ);
 
                 $data = [
-                    'title' => 'Notatki',
-                    'description' => 'Dodaj nowa lub modyfikuj notatke',
-                    'notes' => $notes
+					books = [
+						book = [
+							'authors' => 'Autorzy',
+							'title' => 'Tytuł',
+							'descryption' => 'Opis',
+							'add_date' => 'Data_dodania',
+							'page_amount' => 'Liczba_stron',
+							...
+						]
+					]
+                    
                 ];
 
-                $this->view('users/notes',$data);
+               //??? $this->view('',$data);
         }
 		
 
