@@ -20,7 +20,8 @@
         public function main(){
         	//pobranie ilosci Multimedia z bazy danych
         	$numberOfMultimedia = $this->multimediaModel->numberOfMultimedia();
-
+            echo $numberOfMultimedia->multimedia_count;
+            die();
             $data = [
                 'title' => 'About Us',
                 'numberOfMultimedia' => $numberOfMultimedia
