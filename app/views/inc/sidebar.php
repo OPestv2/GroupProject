@@ -54,3 +54,4 @@
         </div>
     </div>
     <div class="overflow-scroll w-100">
+    <?php require APPROOT . '/views/inc/navbar.php';
