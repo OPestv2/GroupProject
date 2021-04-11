@@ -22,15 +22,14 @@
             $data = [
                 'title' => 'About Us',
                 'numberOfMultimedia' => $this->multimediaModel->numberOfMultimedia()->multimedia_count,
-                'books' => $this->multimediaModel->getMultimedia('2')
+                'multimedia' => array()
             ];
-
-    //         echo('<pre>');
- 			// print_r($data["books"]);
- 			// echo('</pre>');
- 			// die();
 
             $this->view('pages/main', $data);
         }
+
+        search()
+
+        add()
     }
 ?>
